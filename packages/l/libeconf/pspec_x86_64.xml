@@ -11,7 +11,7 @@
         <Summary xml:lang="en">Enhanced config file parser</Summary>
         <Description xml:lang="en">Enhanced config file parser, which merges config files placed in several locations into one
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://sources.getsol.us/README.Solus</Archive>
     </Source>
     <Package>
         <Name>libeconf</Name>
@@ -27,13 +27,42 @@
         </Files>
     </Package>
     <Package>
+        <Name>libeconf-32bit</Name>
+        <Summary xml:lang="en">32-bit libraries for libeconf</Summary>
+        <Description xml:lang="en">Enhanced config file parser, which merges config files placed in several locations into one
+</Description>
+        <PartOf>emul32</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="4">libeconf</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib32/libeconf.so.0</Path>
+            <Path fileType="library">/usr/lib32/libeconf.so.0.5.2</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>libeconf-32bit-devel</Name>
+        <Summary xml:lang="en">Development files for 32-bit libeconf</Summary>
+        <Description xml:lang="en">Enhanced config file parser, which merges config files placed in several locations into one
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="4">libeconf-32bit</Dependency>
+            <Dependency release="4">libeconf-devel</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib32/libeconf.so</Path>
+            <Path fileType="data">/usr/lib32/pkgconfig/libeconf.pc</Path>
+        </Files>
+    </Package>
+    <Package>
         <Name>libeconf-devel</Name>
         <Summary xml:lang="en">Development files for libeconf</Summary>
         <Description xml:lang="en">Enhanced config file parser, which merges config files placed in several locations into one
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="3">libeconf</Dependency>
+            <Dependency release="4">libeconf</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/libeconf.h</Path>
@@ -44,8 +73,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2023-09-12</Date>
+        <Update release="4">
+            <Date>2023-10-13</Date>
             <Version>0.5.2</Version>
             <Comment>Packaging update</Comment>
             <Name>Reilly Brogan</Name>
