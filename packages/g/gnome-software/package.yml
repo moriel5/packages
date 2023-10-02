@@ -1,0 +1,32 @@
+name       : gnome-software
+version    : 44.5
+release    : 1
+source     :
+    - git|https://gitlab.gnome.org/GNOME/gnome-software.git : 44.5
+homepage   : https://apps.gnome.org/Software/
+license    : GPL-2.0-or-later # CHECK ME
+component  : desktop.gnome
+summary    : Software allows users to easily find, discover and install apps.
+description: |
+    Software allows users to easily find, discover and install apps. It also keeps their OS, apps and devices up to date without them having to think about it, and gives them confidence that their system is up to date. It supports popular distributions, subject to those distributions maintaining their own distro-specific integration code.
+networking : yes
+builddeps  :
+    - pkgconfig(appstream)
+    - pkgconfig(flatpak)
+    - pkgconfig(fwupd)
+    - pkgconfig(gsettings-desktop-schemas)
+    - pkgconfig(gtk4)
+    - pkgconfig(json-glib-1.0)
+    - pkgconfig(libadwaita-1)
+    - pkgconfig(libsoup-3.0)
+    - pkgconfig(packagekit-glib2)
+    - pkgconfig(xmlb)
+    - gtk-doc
+setup      : |
+    %meson_configure \
+        -Dpackagekit_autoremove=true \
+        -Dmalcontent=false
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install
