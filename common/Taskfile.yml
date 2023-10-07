@@ -196,6 +196,18 @@ tasks:
     cmds:
       - rm *.eopkg -fv
 
+  init:
+    desc: Initialize the packages repo
+    cmds:
+      # For testing
+      - cp -a common/Hooks/pre-commit.py .git/hooks/pre-commit
+      - cp -a common/Hooks/prepare-commit-msg.py .git/hooks/prepare-commit-msg
+      # TODO: change back
+      # - ln -sf ../../common/Hooks/pre-commit.py .git/hooks/pre-commit
+      # - ln -sf ../../common/Hooks/prepare-commit-msg.py .git/hooks/prepare-commit-msg
+      # - ln -sf ../../common/Hooks/post-merge.sh .git/hooks/post-merge
+      # - ln -sf ../../common/Hooks/post-rewrite.sh .git/hooks/post-rewrite
+
   pull:
     desc: Pull/rebase latest changes
     dir: '{{ .USER_WORKING_DIR }}'
