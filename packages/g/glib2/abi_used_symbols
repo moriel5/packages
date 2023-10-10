@@ -42,6 +42,7 @@ libc.so.6:close
 libc.so.6:close_range
 libc.so.6:closedir
 libc.so.6:connect
+libc.so.6:copy_file_range
 libc.so.6:creat64
 libc.so.6:dcgettext
 libc.so.6:dcngettext
@@ -84,6 +85,7 @@ libc.so.6:fputs
 libc.so.6:fread
 libc.so.6:free
 libc.so.6:freeaddrinfo
+libc.so.6:freelocale
 libc.so.6:freopen64
 libc.so.6:fstat64
 libc.so.6:fsync
@@ -107,7 +109,7 @@ libc.so.6:getppid
 libc.so.6:getpwnam_r
 libc.so.6:getpwuid
 libc.so.6:getpwuid_r
-libc.so.6:getservbyname
+libc.so.6:getservbyname_r
 libc.so.6:getsockname
 libc.so.6:getsockopt
 libc.so.6:gettimeofday
@@ -137,7 +139,6 @@ libc.so.6:link
 libc.so.6:listen
 libc.so.6:listxattr
 libc.so.6:llistxattr
-libc.so.6:localtime
 libc.so.6:localtime_r
 libc.so.6:lseek64
 libc.so.6:lstat64
@@ -173,6 +174,7 @@ libc.so.6:posix_spawnattr_init
 libc.so.6:posix_spawnattr_setflags
 libc.so.6:posix_spawnattr_setsigdefault
 libc.so.6:posix_spawnp
+libc.so.6:prctl
 libc.so.6:pthread_attr_destroy
 libc.so.6:pthread_attr_init
 libc.so.6:pthread_attr_setinheritsched
@@ -261,6 +263,7 @@ libc.so.6:strlen
 libc.so.6:strncasecmp
 libc.so.6:strncmp
 libc.so.6:strncpy
+libc.so.6:strnlen
 libc.so.6:strpbrk
 libc.so.6:strrchr
 libc.so.6:strsignal
@@ -339,6 +342,9 @@ libpcre2-8.so.0:pcre2_get_ovector_count_8
 libpcre2-8.so.0:pcre2_get_ovector_pointer_8
 libpcre2-8.so.0:pcre2_jit_compile_8
 libpcre2-8.so.0:pcre2_jit_match_8
+libpcre2-8.so.0:pcre2_jit_stack_assign_8
+libpcre2-8.so.0:pcre2_jit_stack_create_8
+libpcre2-8.so.0:pcre2_jit_stack_free_8
 libpcre2-8.so.0:pcre2_match_8
 libpcre2-8.so.0:pcre2_match_context_create_8
 libpcre2-8.so.0:pcre2_match_context_free_8
