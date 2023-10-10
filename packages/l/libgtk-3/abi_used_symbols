@@ -1328,7 +1328,7 @@ libglib-2.0.so.0:g_ascii_strup
 libglib-2.0.so.0:g_ascii_table
 libglib-2.0.so.0:g_ascii_tolower
 libglib-2.0.so.0:g_ascii_toupper
-libglib-2.0.so.0:g_assertion_message_cmpnum
+libglib-2.0.so.0:g_assertion_message_cmpint
 libglib-2.0.so.0:g_assertion_message_cmpstr
 libglib-2.0.so.0:g_assertion_message_error
 libglib-2.0.so.0:g_assertion_message_expr
@@ -1965,7 +1965,6 @@ libgobject-2.0.so.0:g_cclosure_marshal_VOID__BOOLEAN
 libgobject-2.0.so.0:g_cclosure_marshal_VOID__BOOLEANv
 libgobject-2.0.so.0:g_cclosure_marshal_VOID__OBJECT
 libgobject-2.0.so.0:g_cclosure_marshal_VOID__OBJECTv
-libgobject-2.0.so.0:g_cclosure_marshal_generic
 libgobject-2.0.so.0:g_cclosure_new
 libgobject-2.0.so.0:g_cclosure_new_object
 libgobject-2.0.so.0:g_cclosure_new_object_swap
