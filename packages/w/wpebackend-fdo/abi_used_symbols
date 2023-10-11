@@ -69,6 +69,7 @@ libstdc++.so.6:_ZdlPv
 libstdc++.so.6:_Znwm
 libwayland-client.so.0:wl_buffer_interface
 libwayland-client.so.0:wl_callback_interface
+libwayland-client.so.0:wl_compositor_interface
 libwayland-client.so.0:wl_display_cancel_read
 libwayland-client.so.0:wl_display_connect_to_fd
 libwayland-client.so.0:wl_display_create_queue
@@ -81,7 +82,6 @@ libwayland-client.so.0:wl_display_read_events
 libwayland-client.so.0:wl_display_roundtrip
 libwayland-client.so.0:wl_display_roundtrip_queue
 libwayland-client.so.0:wl_event_queue_destroy
-libwayland-client.so.0:wl_list_init
 libwayland-client.so.0:wl_list_insert
 libwayland-client.so.0:wl_list_insert_list
 libwayland-client.so.0:wl_list_remove
@@ -113,7 +113,7 @@ libwayland-server.so.0:wl_global_destroy
 libwayland-server.so.0:wl_list_init
 libwayland-server.so.0:wl_list_insert
 libwayland-server.so.0:wl_list_insert_list
-libwayland-server.so.0:wl_list_remove
+libwayland-server.so.0:wl_registry_interface
 libwayland-server.so.0:wl_resource_add_destroy_listener
 libwayland-server.so.0:wl_resource_create
 libwayland-server.so.0:wl_resource_destroy
@@ -130,7 +130,6 @@ libwayland-server.so.0:wl_resource_post_no_memory
 libwayland-server.so.0:wl_resource_set_implementation
 libwayland-server.so.0:wl_resource_set_user_data
 libwayland-server.so.0:wl_shm_buffer_get
-libwayland-server.so.0:wl_surface_interface
 libwpe-1.0.so.1:wpe_renderer_backend_egl_target_dispatch_frame_complete
 libwpe-1.0.so.1:wpe_view_backend_create_with_backend_interface
 libwpe-1.0.so.1:wpe_view_backend_destroy
