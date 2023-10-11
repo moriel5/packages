@@ -1,5 +1,6 @@
 ld-linux-x86-64.so.2:__tls_get_addr
 libc.so.6:__cxa_atexit
+libc.so.6:__environ
 libc.so.6:__errno_location
 libc.so.6:__fprintf_chk
 libc.so.6:__isoc99_sscanf
@@ -25,6 +26,7 @@ libc.so.6:dl_iterate_phdr
 libc.so.6:dladdr
 libc.so.6:dlsym
 libc.so.6:dup2
+libc.so.6:environ
 libc.so.6:execv
 libc.so.6:execvp
 libc.so.6:exit
@@ -39,7 +41,6 @@ libc.so.6:fopen
 libc.so.6:fork
 libc.so.6:fputc
 libc.so.6:fputs
-libc.so.6:fputwc
 libc.so.6:fread
 libc.so.6:free
 libc.so.6:fseek
@@ -48,7 +49,6 @@ libc.so.6:fstat64
 libc.so.6:ftell
 libc.so.6:fwrite
 libc.so.6:getcwd
-libc.so.6:getenv
 libc.so.6:getpid
 libc.so.6:getrlimit
 libc.so.6:getrusage
@@ -64,6 +64,7 @@ libc.so.6:lseek64
 libc.so.6:madvise
 libc.so.6:malloc
 libc.so.6:malloc_usable_size
+libc.so.6:mbsrtowcs
 libc.so.6:memalign
 libc.so.6:memchr
 libc.so.6:memcmp
@@ -126,13 +127,13 @@ libc.so.6:pthread_setspecific
 libc.so.6:putc
 libc.so.6:puts
 libc.so.6:qsort
+libc.so.6:rand
 libc.so.6:read
 libc.so.6:readdir
 libc.so.6:readlink
 libc.so.6:realloc
 libc.so.6:realpath
 libc.so.6:remove
-libc.so.6:setenv
 libc.so.6:setlocale
 libc.so.6:setvbuf
 libc.so.6:sigaction
@@ -165,9 +166,10 @@ libc.so.6:time
 libc.so.6:tzset
 libc.so.6:ungetc
 libc.so.6:unlink
-libc.so.6:unsetenv
 libc.so.6:usleep
 libc.so.6:waitpid
+libc.so.6:wcslen
+libc.so.6:wcsrtombs
 libc.so.6:write
 libgcc_s.so.1:_Unwind_Backtrace
 libgcc_s.so.1:_Unwind_GetDataRelBase
@@ -190,6 +192,7 @@ libicui18n.so.73:ucal_getKeywordValuesForLocale_73
 libicui18n.so.73:ucal_getNow_73
 libicui18n.so.73:ucal_getTZDataVersion_73
 libicui18n.so.73:ucal_getTimeZoneDisplayName_73
+libicui18n.so.73:ucal_getTimeZoneID_73
 libicui18n.so.73:ucal_getTimeZoneOffsetFromLocal_73
 libicui18n.so.73:ucal_getType_73
 libicui18n.so.73:ucal_get_73
@@ -288,9 +291,11 @@ libicuuc.so.73:_ZN6icu_7310UnicodeSet16removeAllStringsEv
 libicuuc.so.73:_ZN6icu_7310UnicodeSet21applyIntPropertyValueE9UPropertyiR10UErrorCode
 libicuuc.so.73:_ZN6icu_7310UnicodeSet3addEi
 libicuuc.so.73:_ZN6icu_7310UnicodeSet3addEii
+libicuuc.so.73:_ZN6icu_7310UnicodeSet6addAllERKS0_
 libicuuc.so.73:_ZN6icu_7310UnicodeSet6freezeEv
 libicuuc.so.73:_ZN6icu_7310UnicodeSet9closeOverEi
 libicuuc.so.73:_ZN6icu_7310UnicodeSet9removeAllERKS0_
+libicuuc.so.73:_ZN6icu_7310UnicodeSet9retainAllERKS0_
 libicuuc.so.73:_ZN6icu_7310UnicodeSetC1ERKS0_
 libicuuc.so.73:_ZN6icu_7310UnicodeSetC1Eii
 libicuuc.so.73:_ZN6icu_7310UnicodeSetC1Ev
@@ -301,6 +306,11 @@ libicuuc.so.73:_ZN6icu_7313UnicodeStringC1EDs
 libicuuc.so.73:_ZN6icu_7313UnicodeStringC1EPKDsi
 libicuuc.so.73:_ZN6icu_7313UnicodeStringC1Ei
 libicuuc.so.73:_ZN6icu_7313UnicodeStringD1Ev
+libicuuc.so.73:_ZN6icu_7318UnicodeSetIterator4nextEv
+libicuuc.so.73:_ZN6icu_7318UnicodeSetIterator9getStringEv
+libicuuc.so.73:_ZN6icu_7318UnicodeSetIteratorC1ERKNS_10UnicodeSetE
+libicuuc.so.73:_ZN6icu_7318UnicodeSetIteratorD1Ev
+libicuuc.so.73:_ZNK6icu_7310UnicodeSet10hasStringsEv
 libicuuc.so.73:_ZNK6icu_7310UnicodeSet11getRangeEndEi
 libicuuc.so.73:_ZNK6icu_7310UnicodeSet13getRangeCountEv
 libicuuc.so.73:_ZNK6icu_7310UnicodeSet13getRangeStartEi
@@ -311,6 +321,7 @@ libicuuc.so.73:_ZNK6icu_7313UnicodeString13doCaseCompareEiiPKDsiij
 libicuuc.so.73:_ZNK6icu_7313UnicodeString8char32AtEi
 libicuuc.so.73:_ZNK6icu_7313UnicodeString8doEqualsERKS0_i
 libicuuc.so.73:u_cleanup_73
+libicuuc.so.73:u_foldCase_73
 libicuuc.so.73:u_getPropertyEnum_73
 libicuuc.so.73:u_getPropertyName_73
 libicuuc.so.73:u_getPropertyValueEnum_73
@@ -376,6 +387,7 @@ libm.so.6:fesetenv
 libm.so.6:floorf
 libm.so.6:fmod
 libm.so.6:log
+libm.so.6:lround
 libm.so.6:pow
 libm.so.6:sin
 libm.so.6:tan
