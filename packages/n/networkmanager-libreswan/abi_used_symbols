@@ -208,7 +208,6 @@ libglib-2.0.so.0:g_variant_ref_sink
 libglib-2.0.so.0:g_variant_type_checked_
 libglib-2.0.so.0:g_variant_unref
 libglib-2.0.so.0:g_warn_message
-libgobject-2.0.so.0:g_cclosure_marshal_generic
 libgobject-2.0.so.0:g_object_class_find_property
 libgobject-2.0.so.0:g_object_class_override_property
 libgobject-2.0.so.0:g_object_get
@@ -239,6 +238,8 @@ libgobject-2.0.so.0:g_type_name
 libgobject-2.0.so.0:g_type_register_static_simple
 libgobject-2.0.so.0:g_value_get_boolean
 libgobject-2.0.so.0:g_value_init
+libgobject-2.0.so.0:g_value_peek_pointer
+libgobject-2.0.so.0:g_value_set_boolean
 libgobject-2.0.so.0:g_value_set_object
 libgobject-2.0.so.0:g_value_set_string
 libgobject-2.0.so.0:g_value_set_variant
@@ -257,7 +258,6 @@ libgtk-3.so.0:gtk_entry_set_text
 libgtk-3.so.0:gtk_entry_set_visibility
 libgtk-3.so.0:gtk_get_option_group
 libgtk-3.so.0:gtk_init
-libgtk-3.so.0:gtk_toggle_button_get_active
 libgtk-3.so.0:gtk_toggle_button_set_active
 libgtk-3.so.0:gtk_widget_destroy
 libgtk-3.so.0:gtk_widget_get_toplevel
@@ -270,13 +270,13 @@ libgtk-4.so.1:gtk_builder_get_object
 libgtk-4.so.1:gtk_builder_set_translation_domain
 libgtk-4.so.1:gtk_check_button_get_active
 libgtk-4.so.1:gtk_check_button_set_active
-libgtk-4.so.1:gtk_combo_box_get_active
+libgtk-4.so.1:gtk_combo_box_get_type
 libgtk-4.so.1:gtk_editable_get_text
 libgtk-4.so.1:gtk_editable_set_text
-libgtk-4.so.1:gtk_entry_set_visibility
+libgtk-4.so.1:gtk_toggle_button_get_active
 libgtk-4.so.1:gtk_widget_get_root
-libgtk-4.so.1:gtk_widget_show
 libgtk-4.so.1:gtk_window_set_hide_on_close
+libgtk-4.so.1:gtk_window_set_transient_for
 libnl-3.so.200:nl_connect
 libnl-3.so.200:nl_geterror
 libnl-3.so.200:nl_recvmsgs_default
