@@ -298,7 +298,7 @@ libglib-2.0.so.0:g_ascii_strtoll
 libglib-2.0.so.0:g_ascii_strup
 libglib-2.0.so.0:g_ascii_table
 libglib-2.0.so.0:g_ascii_toupper
-libglib-2.0.so.0:g_assertion_message_cmpnum
+libglib-2.0.so.0:g_assertion_message_cmpint
 libglib-2.0.so.0:g_assertion_message_expr
 libglib-2.0.so.0:g_build_filename
 libglib-2.0.so.0:g_build_pathv
