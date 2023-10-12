@@ -30,23 +30,31 @@ function whatuses() {
     grep $1 $(git rev-parse --show-toplevel)/packages/*/*/abi_used_libs
 }
 
+# package name completion
+_gotopkg() {
 
-# # zsh completions
-# _gotopkg()
-# {
+    _list=$(ls $(git rev-parse --show-toplevel)/packages/*/)
+    # echo "List $_list"
+    local cur
+    cur=${words[-1]} # gets typed input
+    # echo "cur $cur"
 
-#     _list=$(ls $(git rev-parse --show-toplevel)/packages/*/)
+    # compadd -V 'Result' -- "${_list[@]}";
+    compadd -V "${_list[@]}" -- ${cur};
 
-#     local cur prev
-#     COMPREPLY=()
-#     cur=${COMP_WORDS[COMP_CWORD]}
-#     prev="${COMP_WORDS[COMP_CWORD-1]}"
+    # local cur prev
+    # COMPREPLY=()
+    # cur=${COMP_WORDS[COMP_CWORD]}
+    # prev="${COMP_WORDS[COMP_CWORD-1]}"
+    # echo "cur $cur  prev $prev"
 
-#     if [[ $COMP_CWORD -eq 1 ]] ; then
-#         COMPREPLY=( $(compgen -W "${_list}" -- ${cur}) )
-#         return 0
-#     fi
-# }
+    # if [[ $COMP_CWORD -eq 1 ]] ; then
+    #     COMPREPLY=( $(compgen -W "${_list}" -- ${cur}) )
+    #     return 0
+    # fi
+    
 
-# #  /home/tracey/.bashrc.d/solus-monorepo-helpers.sh:49: command not found: complete
-# complete -F _gotopkg gotopkg
+}
+
+compdef _gotopkg gotopkg
+
