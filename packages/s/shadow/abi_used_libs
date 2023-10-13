@@ -1,7 +1,9 @@
 libacl.so.1
 libattr.so.1
+libbsd.so.0
 libc.so.6
 libcrypt.so.2
 libeconf.so.0
 libpam.so.0
 libpam_misc.so.0
+libsystemd.so.0

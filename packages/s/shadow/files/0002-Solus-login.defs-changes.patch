@@ -1,0 +1,44 @@
+From 1911a1ce075402234563b08927395f97e9fc431f Mon Sep 17 00:00:00 2001
+From: Reilly Brogan <reilly@reillybrogan.com>
+Date: Thu, 12 Oct 2023 22:08:52 -0500
+Subject: [PATCH] Solus login.defs changes
+
+---
+ etc/login.defs | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+diff --git a/etc/login.defs b/etc/login.defs
+index 74711fdc..ffae7d48 100644
+--- a/etc/login.defs
++++ b/etc/login.defs
+@@ -84,7 +84,8 @@ UMASK		022
+ # HOME_MODE is used by useradd(8) and newusers(8) to set the mode for new
+ # home directories.
+ # If HOME_MODE is not set, the value of UMASK is used to create the mode.
+-#HOME_MODE	0700
++# samba usershare functionality requires o=x set
++HOME_MODE	0751
+ 
+ #
+ # Password aging controls:
+@@ -152,7 +153,7 @@ CHFN_RESTRICT		rwh
+ # Note: If you use PAM, it is recommended to use a value consistent with
+ # the PAM modules configuration.
+ #
+-#ENCRYPT_METHOD DES
++ENCRYPT_METHOD YESCRYPT
+ 
+ #
+ # Only works if ENCRYPT_METHOD is set to SHA256 or SHA512.
+@@ -231,7 +232,7 @@ USERGROUPS_ENAB yes
+ # This option is overridden with the -M or -m flags on the useradd(8)
+ # command-line.
+ #
+-#CREATE_HOME     yes
++CREATE_HOME     yes
+ 
+ #
+ # Force use shadow, even if shadow passwd & shadow group files are
+-- 
+2.42.0
+
