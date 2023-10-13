@@ -1,10 +1,14 @@
+# no archives please
 *.eopkg
 *.tar.*
 *.tgz
+*.gz
+# no ferryd transit manifests
+*.tram
+# no backup files
 *~
 *.vscode
 **.kate-swp
-
 # Go binaries
 common/Go/yabi/yabi
 common/Go/ypkg/ypkg-tools
@@ -12,3 +16,4 @@ common/switch_repo_domains
 
 # Python caches
 .mypy_cache
+venv

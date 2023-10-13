@@ -1,8 +1,8 @@
 name       : eza
-version    : 0.14.0
-release    : 5
+version    : 0.14.2
+release    : 7
 source     :
-    - https://github.com/eza-community/eza/archive/refs/tags/v0.14.0.tar.gz : 00932e1c81e761490e45d16902356d8e6ae7efe4accc0a41e18c342424167f47
+    - https://github.com/eza-community/eza/archive/refs/tags/v0.14.2.tar.gz : 155d6e38a37c9d2fd32d2234662dba2e0f50b553826dfff290ae8f7c16dbb389
 homepage   : https://github.com/eza-community/eza
 license    : MIT
 component  : system.utils
