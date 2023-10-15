@@ -1,6 +1,6 @@
 name       : citra
 version    : 1990
-release    : 8
+release    : 9
 source     :
     - git|https://github.com/citra-emu/citra-nightly : nightly-1990
 license    : GPL-2.0-or-later
