@@ -2,15 +2,15 @@
     <Source>
         <Name>yuzu</Name>
         <Packager>
-            <Name>Marcus Mellor</Name>
-            <Email>infinitymdm@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>games.emulator</PartOf>
         <Summary xml:lang="en">The world&apos;s most popular, open-source, Nintendo Switch emulator.</Summary>
         <Description xml:lang="en">The world&apos;s most popular, open-source, Nintendo Switch emulator - started by the creators of Citra.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://sources.getsol.us/README.Solus</Archive>
     </Source>
     <Package>
         <Name>yuzu</Name>
@@ -29,12 +29,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="25">
-            <Date>2023-09-15</Date>
+        <Update release="26">
+            <Date>2023-10-09</Date>
             <Version>1559</Version>
             <Comment>Packaging update</Comment>
-            <Name>Marcus Mellor</Name>
-            <Email>infinitymdm@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

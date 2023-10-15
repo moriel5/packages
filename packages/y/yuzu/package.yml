@@ -1,6 +1,6 @@
 name       : yuzu
 version    : '1559'
-release    : 25
+release    : 26
 source     :
     - git|https://github.com/yuzu-emu/yuzu-mainline : mainline-0-1559
 license    : GPL-3.0-or-later
