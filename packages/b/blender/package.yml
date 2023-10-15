@@ -1,6 +1,6 @@
 name       : blender
 version    : 3.6.1
-release    : 71
+release    : 72
 source     :
     - https://download.blender.org/source/blender-3.6.1.tar.xz : 24917e71bcb26b4900257054d9da38b62316c7427d7323533b41ca9b3b45ac4d
 license    : GPL-2.0-or-later
@@ -80,7 +80,7 @@ setup      : |
         -DWITH_USD=ON \
         -DWITH_X11_XINPUT=ON
 build      : |
-    %ninja_build
+    %ninja_build -j6
 install    : |
     %ninja_install
     %python3_compile $installdir/usr/share/blender
