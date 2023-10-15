@@ -1,6 +1,6 @@
 name       : libkolabxml
 version    : 1.2.1
-release    : 11
+release    : 12
 source     :
     - git|https://git.kolab.org/diffusion/LKX/libkolabxml.git : libkolabxml-1.2.1
 license    :
