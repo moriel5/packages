@@ -3,7 +3,6 @@
 [:error_message_count
 [:error_one_per_line
 [:error_print_progname
-b2sum:__getdelim
 b2sum:error
 b2sum:error_at_line
 b2sum:error_message_count
@@ -54,7 +53,6 @@ chroot:error_at_line
 chroot:error_message_count
 chroot:error_one_per_line
 chroot:error_print_progname
-cksum:__getdelim
 cksum:error
 cksum:error_at_line
 cksum:error_message_count
@@ -65,7 +63,6 @@ comm:error_at_line
 comm:error_message_count
 comm:error_one_per_line
 comm:error_print_progname
-cp:__getdelim
 cp:error
 cp:error_at_line
 cp:error_message_count
@@ -81,7 +78,6 @@ cut:error_at_line
 cut:error_message_count
 cut:error_one_per_line
 cut:error_print_progname
-date:__getdelim
 date:error
 date:error_at_line
 date:error_message_count
@@ -92,7 +88,6 @@ dd:error_at_line
 dd:error_message_count
 dd:error_one_per_line
 dd:error_print_progname
-df:__getdelim
 df:error
 df:error_at_line
 df:error_message_count
@@ -104,7 +99,6 @@ dir:error_message_count
 dir:error_one_per_line
 dir:error_print_progname
 dir:obstack_alloc_failed_handler
-dircolors:__getdelim
 dircolors:error
 dircolors:error_at_line
 dircolors:error_message_count
@@ -116,7 +110,6 @@ dirname:error_at_line
 dirname:error_message_count
 dirname:error_one_per_line
 dirname:error_print_progname
-du:__getdelim
 du:error
 du:error_at_line
 du:error_message_count
@@ -182,7 +175,6 @@ id:error_at_line
 id:error_message_count
 id:error_one_per_line
 id:error_print_progname
-install:__getdelim
 install:error
 install:error_at_line
 install:error_message_count
@@ -198,7 +190,6 @@ link:error_at_line
 link:error_message_count
 link:error_one_per_line
 link:error_print_progname
-ln:__getdelim
 ln:error
 ln:error_at_line
 ln:error_message_count
@@ -215,7 +206,6 @@ ls:error_message_count
 ls:error_one_per_line
 ls:error_print_progname
 ls:obstack_alloc_failed_handler
-md5sum:__getdelim
 md5sum:error
 md5sum:error_at_line
 md5sum:error_message_count
@@ -241,7 +231,6 @@ mktemp:error_at_line
 mktemp:error_message_count
 mktemp:error_one_per_line
 mktemp:error_print_progname
-mv:__getdelim
 mv:error
 mv:error_at_line
 mv:error_message_count
@@ -262,13 +251,11 @@ nohup:error_at_line
 nohup:error_message_count
 nohup:error_one_per_line
 nohup:error_print_progname
-nproc:__getdelim
 nproc:error
 nproc:error_at_line
 nproc:error_message_count
 nproc:error_one_per_line
 nproc:error_print_progname
-numfmt:__getdelim
 numfmt:error
 numfmt:error_at_line
 numfmt:error_message_count
@@ -329,7 +316,6 @@ realpath:error_at_line
 realpath:error_message_count
 realpath:error_one_per_line
 realpath:error_print_progname
-rm:__getdelim
 rm:error
 rm:error_at_line
 rm:error_message_count
@@ -345,31 +331,26 @@ seq:error_at_line
 seq:error_message_count
 seq:error_one_per_line
 seq:error_print_progname
-sha1sum:__getdelim
 sha1sum:error
 sha1sum:error_at_line
 sha1sum:error_message_count
 sha1sum:error_one_per_line
 sha1sum:error_print_progname
-sha224sum:__getdelim
 sha224sum:error
 sha224sum:error_at_line
 sha224sum:error_message_count
 sha224sum:error_one_per_line
 sha224sum:error_print_progname
-sha256sum:__getdelim
 sha256sum:error
 sha256sum:error_at_line
 sha256sum:error_message_count
 sha256sum:error_one_per_line
 sha256sum:error_print_progname
-sha384sum:__getdelim
 sha384sum:error
 sha384sum:error_at_line
 sha384sum:error_message_count
 sha384sum:error_one_per_line
 sha384sum:error_print_progname
-sha512sum:__getdelim
 sha512sum:error
 sha512sum:error_at_line
 sha512sum:error_message_count
@@ -390,7 +371,6 @@ sleep:error_at_line
 sleep:error_message_count
 sleep:error_one_per_line
 sleep:error_print_progname
-sort:__getdelim
 sort:error
 sort:error_at_line
 sort:error_message_count
@@ -402,7 +382,6 @@ split:error_at_line
 split:error_message_count
 split:error_one_per_line
 split:error_print_progname
-stat:__getdelim
 stat:error
 stat:error_at_line
 stat:error_message_count
@@ -514,7 +493,6 @@ vdir:error_message_count
 vdir:error_one_per_line
 vdir:error_print_progname
 vdir:obstack_alloc_failed_handler
-wc:__getdelim
 wc:error
 wc:error_at_line
 wc:error_message_count

@@ -21,7 +21,7 @@ libc.so.6:__explicit_bzero_chk
 libc.so.6:__fpending
 libc.so.6:__fpurge
 libc.so.6:__fread_unlocked_chk
-libc.so.6:__freading
+libc.so.6:__getdelim
 libc.so.6:__isoc23_sscanf
 libc.so.6:__isoc23_strtoimax
 libc.so.6:__isoc23_strtol
@@ -137,6 +137,7 @@ libc.so.6:fwrite
 libc.so.6:fwrite_unlocked
 libc.so.6:getaddrinfo
 libc.so.6:getcwd
+libc.so.6:getdelim
 libc.so.6:getegid
 libc.so.6:getenv
 libc.so.6:geteuid
@@ -151,6 +152,7 @@ libc.so.6:getlogin
 libc.so.6:getmntent
 libc.so.6:getopt_long
 libc.so.6:getpagesize
+libc.so.6:getppid
 libc.so.6:getpriority
 libc.so.6:getpwnam
 libc.so.6:getpwuid

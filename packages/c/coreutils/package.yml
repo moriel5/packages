@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : coreutils
-version    : '9.9'
-release    : 42
+version    : '9.10'
+release    : 43
 source     :
-    - https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.9.tar.xz : 19bcb6ca867183c57d77155eae946c5eced88183143b45ca51ad7d26c628ca75
+    - https://ftpmirror.gnu.org/gnu/coreutils/coreutils-9.10.tar.xz : 16535a9adf0b10037364e2d612aad3d9f4eca3a344949ced74d12faf4bd51d25
 homepage   : https://www.gnu.org/software/coreutils/
 license    : GPL-3.0-or-later
 component  : system.base
