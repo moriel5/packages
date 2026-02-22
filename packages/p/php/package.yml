@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : php
-version    : 8.5.1
-release    : 109
+version    : 8.5.3
+release    : 110
 source     :
-    - https://www.php.net/distributions/php-8.5.1.tar.xz : 3f5bf99ce81201f526d25e288eddb2cfa111d068950d1e9a869530054ff98815
+    - https://www.php.net/distributions/php-8.5.3.tar.xz : ce65725b8af07356b69a6046d21487040b11f2acfde786de38b2bfb712c36eb9
 license    : PHP-3.01
 component  : programming
 homepage   : https://www.php.net
@@ -33,7 +33,6 @@ builddeps  :
     - pkgconfig(tidy)
     - pkgconfig(zlib)
     - gettext-devel
-    - imap-devel
     - net-snmp-devel
 patterns   :
     - devel :
@@ -83,8 +82,6 @@ setup      : |
          --with-gettext=shared \
          --with-gmp=shared \
          --with-iconv=shared \
-         --with-imap=shared \
-         --with-imap-ssl \
          --with-ldap=shared \
          --with-ldap-sasl \
          --with-libdir=lib64 \
