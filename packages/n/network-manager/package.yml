@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : network-manager
 version    : 1.54.3
-release    : 89
+release    : 90
 source     :
     - https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/archive/1.54.3/NetworkManager-1.54.3.tar.bz2 : e38d55611af8127e1a2b1a7b4952bded1f61917cbc49d4ee7a272ec3fcd7b51b
 homepage   : https://gitlab.freedesktop.org/NetworkManager/NetworkManager
@@ -85,8 +85,6 @@ rundeps    :
     - libnm-32bit-devel :
         - network-manager-libnm-32bit
         - network-manager-libnm-devel
-    - livecd :
-        - network-manager
 emul32     : true
 environment: |
     unset LD_AS_NEEDED
