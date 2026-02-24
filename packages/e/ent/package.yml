@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : ent
 version    : 0.1.0
-release    : 2
+release    : 3
 source     :
-    - git|https://github.com/aerynOS/ent.git : 83c7ec9e4b6b1a4ba147e6c2121e06308b509b89
+    - git|https://github.com/aerynOS/ent.git : f9b0380aec4c0bf46c629f522b46438e47a0b573
 homepage   : https://github.com/aerynOS/ent
 license    : MPL-2.0
 component  : programming.utils
@@ -16,6 +16,6 @@ builddeps  :
 setup      : |
     %cargo_fetch
 build      : |
-    %cargo_build
+    %cargo_build --no-default-features --features "ypkg"
 install    : |
     %cargo_install
