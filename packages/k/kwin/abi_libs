@@ -1,6 +1,7 @@
 BounceKeysPlugin.so
 KeyNotificationPlugin.so
 MouseKeysPlugin.so
+SlowKeysPlugin.so
 StickyKeysPlugin.so
 TouchpadShortcutsPlugin.so
 buttonsrebind.so
