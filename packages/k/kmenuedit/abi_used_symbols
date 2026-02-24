@@ -459,7 +459,6 @@ libQt6Gui.so.6:_ZNK5QIcon6pixmapERK5QSizeNS_4ModeENS_5StateE
 libQt6Gui.so.6:_ZNK5QIconcv8QVariantEv
 libQt6Gui.so.6:_ZNK7QAction10menuObjectEv
 libQt6Gui.so.6:_ZNK7QAction8shortcutEv
-libQt6Gui.so.6:_ZNK7QAction9isEnabledEv
 libQt6Gui.so.6:_Zls6QDebugRK12QKeySequence
 libQt6Gui.so.6:_Zls6QDebugRK5QIcon
 libQt6Gui.so.6:_ZlsR11QDataStreamRK12QKeySequence
@@ -487,6 +486,7 @@ libQt6Widgets.so.6:_ZN11QTreeWidget16takeTopLevelItemEi
 libQt6Widgets.so.6:_ZN11QTreeWidget17setSelectionModelEP19QItemSelectionModel
 libQt6Widgets.so.6:_ZN11QTreeWidget18currentItemChangedEP15QTreeWidgetItemS1_
 libQt6Widgets.so.6:_ZN11QTreeWidget18insertTopLevelItemEiP15QTreeWidgetItem
+libQt6Widgets.so.6:_ZN11QTreeWidget20itemSelectionChangedEv
 libQt6Widgets.so.6:_ZN11QTreeWidget5clearEv
 libQt6Widgets.so.6:_ZN11QTreeWidget5eventEP6QEvent
 libQt6Widgets.so.6:_ZN11QTreeWidget8setModelEP18QAbstractItemModel
@@ -510,7 +510,6 @@ libQt6Widgets.so.6:_ZN15QTreeWidgetItem11addChildrenERK5QListIPS_E
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem11insertChildEiPS_
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem11removeChildEPS_
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem11setExpandedEb
-libQt6Widgets.so.6:_ZN15QTreeWidgetItem11setSelectedEb
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem12takeChildrenEv
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem4readER11QDataStream
 libQt6Widgets.so.6:_ZN15QTreeWidgetItem7setDataEiiRK8QVariant
@@ -530,6 +529,7 @@ libQt6Widgets.so.6:_ZN17QAbstractItemView14setDragEnabledEb
 libQt6Widgets.so.6:_ZN17QAbstractItemView15editorDestroyedEP7QObject
 libQt6Widgets.so.6:_ZN17QAbstractItemView15setCurrentIndexERK11QModelIndex
 libQt6Widgets.so.6:_ZN17QAbstractItemView16inputMethodEventEP17QInputMethodEvent
+libQt6Widgets.so.6:_ZN17QAbstractItemView16setSelectionModeENS_13SelectionModeE
 libQt6Widgets.so.6:_ZN17QAbstractItemView16updateEditorDataEv
 libQt6Widgets.so.6:_ZN17QAbstractItemView18focusNextPrevChildEb
 libQt6Widgets.so.6:_ZN17QAbstractItemView22updateEditorGeometriesEv
