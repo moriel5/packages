@@ -133,6 +133,7 @@ libKF6KCMUtilsCore.so.6:_ZN12KCModuleData15relevantChangedEb
 libKF6KCMUtilsCore.so.6:_ZN12KCModuleData16staticMetaObjectE
 libKF6KCMUtilsCore.so.6:_ZN12KCModuleData22auxiliaryActionChangedEP7QAction
 libKF6KCMUtilsCore.so.6:_ZN12KCModuleData6loadedEv
+libKF6KCMUtilsCore.so.6:_ZN21KAbstractConfigModule14buttonsChangedEv
 libKF6KCMUtilsCore.so.6:_ZN21KAbstractConfigModule16needsSaveChangedEv
 libKF6KCMUtilsCore.so.6:_ZN21KAbstractConfigModule16staticMetaObjectE
 libKF6KCMUtilsCore.so.6:_ZN21KAbstractConfigModule19activationRequestedERK5QListI8QVariantE
@@ -763,7 +764,6 @@ libc.so.6:memcpy
 libc.so.6:memmove
 libc.so.6:strcmp
 libc.so.6:strlen
-libm.so.6:floor
 libm.so.6:fmod
 libstdc++.so.6:_ZNKSt5ctypeIcE13_M_widen_initEv
 libstdc++.so.6:_ZNSo3putEc
