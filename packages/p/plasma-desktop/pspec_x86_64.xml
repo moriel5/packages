@@ -4,7 +4,7 @@
         <Homepage>https://www.kde.org/workspaces/plasmadesktop/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GPL-2.0-only</License>
         <License>GPL-2.0-or-later</License>
@@ -36,7 +36,7 @@
             <Path fileType="library">/usr/lib64/kf6/kimpanel-ibus-panel</Path>
             <Path fileType="library">/usr/lib64/kf6/kimpanel-ibus-panel-launcher</Path>
             <Path fileType="library">/usr/lib64/libkglobalaccelmodel.so.6</Path>
-            <Path fileType="library">/usr/lib64/libkglobalaccelmodel.so.6.5.5</Path>
+            <Path fileType="library">/usr/lib64/libkglobalaccelmodel.so.6.6.1</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/attica_kde.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/kded/device_automounter.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/kded/kded_touchpad.so</Path>
@@ -45,8 +45,15 @@
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/krunner/krunner_kwin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/krunner/krunner_plasma-desktop.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.panel.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.keyboardlayout.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.kicker.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.kickoff.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.kimpanel.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.marginsseparator.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.pager.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.showActivityManager.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.showdesktop.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.taskmanager.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.trash.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.windowlist.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/kcminit/kcm_mouse_init.so</Path>
@@ -87,22 +94,6 @@
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kcm_keyboard/kde-qmlmodule.version</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kcm_keyboard/libkcm_keyboard_declarative.so</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kcm_keyboard/qmldir</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kimpanel/kde-qmlmodule.version</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kimpanel/kimpanelplugin.qmltypes</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kimpanel/libkimpanelplugin.so</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/kimpanel/qmldir</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/pager/kde-qmlmodule.version</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/pager/libpagerplugin.so</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/pager/pagerplugin.qmltypes</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/pager/qmldir</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/showdesktop/kde-qmlmodule.version</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/showdesktop/libshowdesktopplugin.so</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/showdesktop/qmldir</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/showdesktop/showdesktopplugin.qmltypes</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/taskmanager/kde-qmlmodule.version</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/taskmanager/libtaskmanagerplugin.so</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/taskmanager/qmldir</Path>
-            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/taskmanager/taskmanagerplugin.qmltypes</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/private/desktopcontainment/folder/folderplugin.qmltypes</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/private/desktopcontainment/folder/kde-qmlmodule.version</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/private/desktopcontainment/folder/libfolderplugin.so</Path>
@@ -137,7 +128,6 @@
             <Path fileType="data">/usr/share/applications/org.kde.knetattach.desktop</Path>
             <Path fileType="data">/usr/share/applications/org.kde.plasma.emojier.desktop</Path>
             <Path fileType="data">/usr/share/config.kcfg/kactivitymanagerd_plugins_settings.kcfg</Path>
-            <Path fileType="data">/usr/share/config.kcfg/kactivitymanagerd_settings.kcfg</Path>
             <Path fileType="data">/usr/share/config.kcfg/kcmaccessibilitybell.kcfg</Path>
             <Path fileType="data">/usr/share/config.kcfg/kcmaccessibilitycolorblindnesscorrection.kcfg</Path>
             <Path fileType="data">/usr/share/config.kcfg/kcmaccessibilityinvert.kcfg</Path>
@@ -1430,6 +1420,7 @@
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.taskmanager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.trash.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_applet_org.kde.plasma.windowlist.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_runner_keys.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_runner_kwin.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_runner_plasma-desktop.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ia/LC_MESSAGES/plasma_shell_org.kde.plasma.desktop.mo</Path>
@@ -1602,6 +1593,7 @@
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/kcmqtquicksettings.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/knetattach.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/org.kde.plasma.emojier.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/plasma-desktop-sddm-theme.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.desktopcontainment.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.panel.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/plasma_applet_org.kde.plasma.keyboardlayout.mo</Path>
@@ -2015,6 +2007,7 @@
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.taskmanager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.trash.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_applet_org.kde.plasma.windowlist.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_runner_keys.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_runner_kwin.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_runner_plasma-desktop.mo</Path>
             <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/plasma_shell_org.kde.plasma.desktop.mo</Path>
@@ -2432,7 +2425,6 @@
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.taskmanager.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.trash.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_applet_org.kde.plasma.windowlist.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_runner_keys.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_runner_kwin.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_runner_plasma-desktop.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/plasma_shell_org.kde.plasma.desktop.mo</Path>
@@ -2604,6 +2596,8 @@
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcm_keyboard.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcm_smserver.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcm_solid_actions.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcm_splashscreen.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcm_tablet.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcmkclock.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/kcmmouse.mo</Path>
             <Path fileType="localedata">/usr/share/locale/sq/LC_MESSAGES/knetattach.mo</Path>
@@ -3373,72 +3367,12 @@
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.activitypager/metadata.json</Path>
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.folder/metadata.json</Path>
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.icontasks/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.keyboardlayout/contents/config/config.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.keyboardlayout/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.keyboardlayout/contents/ui/configGeneral.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.keyboardlayout/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.keyboardlayout/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/config/config.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/ActionMenu.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/CandidateHighlight.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/ConfigAppearance.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/ContextMenu.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/InputPanel.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/StatusIcon.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.kimpanel/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.marginsseparator/metadata.json</Path>
             <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.minimizeall/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/config/config.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/ui/configGeneral.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.pager/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.pager/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/contents/config/config.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/contents/ui/ConfigAppearance.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showActivityManager/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/Controller.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/MinimizeAllController.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/PeekController.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.showdesktop/metadata.json</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/config.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/AudioStream.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/Badge.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ConfigAppearance.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ConfigBehavior.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ContextMenu.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupDialog.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/GroupExpanderOverlay.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/MouseHandler.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PipeWireThumbnail.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PlayerController.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/PulseAudio.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ScrollableTextWrapper.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/Task.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskBadgeOverlay.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskList.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/TaskProgressOverlay.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ToolTipDelegate.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ToolTipInstance.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/ToolTipWindowMouseArea.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/code/layoutmetrics.js</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/code/tools.js</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.taskmanager/metadata.json</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/InteractiveConsole.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityItem.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityList.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/ActivityManager.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/Heading.qml</Path>
-            <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/StoppedActivityItem.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/TaskDropArea.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/WindowPreview.qml</Path>
             <Path fileType="data">/usr/share/plasma/shells/org.kde.plasma.desktop/contents/activitymanager/static.js</Path>
@@ -3528,12 +3462,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="173">
-            <Date>2026-01-30</Date>
-            <Version>6.5.5</Version>
+        <Update release="174">
+            <Date>2026-02-24</Date>
+            <Version>6.6.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>
