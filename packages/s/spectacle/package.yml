@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : spectacle
-version    : 6.5.5
-release    : 118
+version    : 6.6.1
+release    : 119
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/spectacle-6.5.5.tar.xz : 1d942ab8c81150336676f7bb357dfedb9afa903be71c9095e370d94c817592ba
+    - https://download.kde.org/stable/plasma/6.6.1/spectacle-6.6.1.tar.xz : 6ae033482f20fe847610ef4e2bef81eab2b483d7f5f230c5cdf873273695ebaf
 homepage   : https://kde.org/applications/utilities/org.kde.spectacle
 license    :
     - GFDL-1.3-or-later
@@ -34,9 +34,10 @@ builddeps  :
     - kf6-prison-devel
     - kf6-purpose-devel
     - kpipewire-devel
+    - kquickimageeditor-devel
     - layer-shell-qt-devel
-    - qt6-base-private-devel
     - plasma-wayland-protocols-devel
+    - qt6-base-private-devel
 clang      : true
 optimize   :
     - speed
