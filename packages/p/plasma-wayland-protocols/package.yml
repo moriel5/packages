@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-wayland-protocols
-version    : 1.19.0
-release    : 20
+version    : 1.20.0
+release    : 21
 source     :
-    - https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.19.0.tar.xz : 45679fe7a63c414f2c81793a62528fae6ccee584b6965719d7f9fc6dd48ba846
+    - https://download.kde.org/stable/plasma-wayland-protocols/plasma-wayland-protocols-1.20.0.tar.xz : 9818bb1462211ce5982e670abf0d964eb11fe1d0c02a1c26084db30695a79d6a
 homepage   : https://kde.org/plasma-desktop
 license    : LGPL-2.1-or-later
 component  : desktop.kde.core
