@@ -687,6 +687,7 @@ libQt6Gui.so.6:_ZN5QFont16staticMetaObjectE
 libQt6Gui.so.6:_ZN5QFontC1ERKS_
 libQt6Gui.so.6:_ZN5QFontC1Ev
 libQt6Gui.so.6:_ZN5QFontD1Ev
+libQt6Gui.so.6:_ZN7QWindow16staticMetaObjectE
 libQt6Gui.so.6:_ZNK12QFontMetrics17horizontalAdvanceERK7QStringi
 libQt6Gui.so.6:_ZNK18QStandardItemModel10headerDataEiN2Qt11OrientationEi
 libQt6Gui.so.6:_ZNK18QStandardItemModel11columnCountERK11QModelIndex
@@ -740,6 +741,7 @@ libQt6Qml.so.6:_ZN25QQmlEngineExtensionPluginC2EP7QObject
 libQt6Qml.so.6:_ZN25QQmlEngineExtensionPluginD2Ev
 libQt6Qml.so.6:_ZN8QJSValueC1ENS_12SpecialValueE
 libQt6Qml.so.6:_ZN8QJSValueC1ERKS_
+libQt6Qml.so.6:_ZN8QJSValueC1Ei
 libQt6Qml.so.6:_ZN8QJSValueD1Ev
 libQt6Qml.so.6:_ZN9QJSEngine13convertStringERK7QString9QMetaTypePv
 libQt6Qml.so.6:_ZN9QJSEngine14convertManagedERK15QJSManagedValue9QMetaTypePv
@@ -839,6 +841,7 @@ libc.so.6:closedir
 libc.so.6:dirfd
 libc.so.6:free
 libc.so.6:getopt_long
+libc.so.6:getpriority
 libc.so.6:kill
 libc.so.6:localtime
 libc.so.6:memchr
