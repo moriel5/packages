@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kinfocenter
-version    : 6.5.5
-release    : 141
+version    : 6.6.1
+release    : 142
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/kinfocenter-6.5.5.tar.xz : 567b8f9f4c806414cf417fd59aceaa37485696bd6b655aea01fffd6e2bd5b81c
+    - https://download.kde.org/stable/plasma/6.6.1/kinfocenter-6.6.1.tar.xz : 2dcd57f2300ef64610b875d720045f204873dca6ff7c32178577639e4ba34763
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GFDL-1.2-only
