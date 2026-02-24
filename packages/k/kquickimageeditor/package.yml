@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kquickimageeditor
-version    : 0.4.0
-release    : 7
+version    : 0.6.0
+release    : 8
 source     :
-    - https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.4.0.tar.xz : d853894811d350fae499c67ebaafb2cc252d3c818b89fcf71757bc34f541a3fb
+    - https://download.kde.org/stable/kquickimageeditor/kquickimageeditor-0.6.0.tar.xz : 11ed4ce1c164a8b6d50bbc1548b5849ab75d5fb837619b90f2cea51ed122547a
 license    :
     - BSD-2-Clause
     - CC0-1.0
@@ -15,7 +15,10 @@ description: |
     KQuickImageEditor is a set of QtQuick components providing basic image editing capabilities.
 builddeps  :
     - pkgconfig(Qt6Qml)
+    - pkgconfig(opencv4)
     - extra-cmake-modules
+    - kf6-kconfig-devel
+    - qt6-base-private-devel
 clang      : true
 optimize   :
     - speed
