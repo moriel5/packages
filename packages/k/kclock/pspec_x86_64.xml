@@ -3,8 +3,8 @@
         <Name>kclock</Name>
         <Homepage>https://apps.kde.org/kclock</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>desktop.kde</PartOf>
@@ -142,12 +142,12 @@ Features
         </Files>
     </Package>
     <History>
-        <Update release="31">
-            <Date>2026-02-05</Date>
+        <Update release="32">
+            <Date>2026-02-24</Date>
             <Version>25.12.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
