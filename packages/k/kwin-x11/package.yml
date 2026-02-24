@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kwin-x11
-version    : 6.5.5
-release    : 17
+version    : 6.6.1
+release    : 18
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/kwin-x11-6.5.5.tar.xz : 89b9d41234f6f9bfe87fb472d77aefd1a8f9a447c4357169dcf810ad44e9b1d4
+    - https://download.kde.org/stable/plasma/6.6.1/kwin-x11-6.6.1.tar.xz : 3304d33277f20db1daee4a90d7afe95d1301c1036f8d048a75c62611c3e01d72
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GFDL-1.2-only
