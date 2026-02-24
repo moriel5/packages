@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kscreen
-version    : 6.5.5
-release    : 134
+version    : 6.6.1
+release    : 135
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/kscreen-6.5.5.tar.xz : 07c9a232825e1627329e77556908dfa8fec19166c3fb0e1e422fc1cd0e83c53f
+    - https://download.kde.org/stable/plasma/6.6.1/kscreen-6.6.1.tar.xz : 0e8a6b1b3db6ccadf5b22e38b9d0607ab74f9316b10920cdfcd995053e1985db
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GPL-2.0-or-later
@@ -24,6 +24,7 @@ builddeps  :
     - kf6-kcrash-devel
     - kf6-kdbusaddons-devel
     - kf6-ki18n-devel
+    - kf6-kirigami-devel
     - kf6-ksvg-devel
     - layer-shell-qt-devel
     - libplasma-devel

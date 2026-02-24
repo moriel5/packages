@@ -4,7 +4,7 @@
         <Homepage>https://www.kde.org/workspaces/plasmadesktop/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>BSD-3-Clause</License>
         <License>GPL-2.0-or-later</License>
@@ -28,7 +28,13 @@
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/kded/bluedevil.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/kio/kio_bluetooth.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/kio/kio_obexftp.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/plasma/applets/org.kde.plasma.bluetooth.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/kcm_bluetooth.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/bluedevil/components/ForgetDeviceDialog.qml</Path>
+            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/bluedevil/components/bluedevilcomponents.qmltypes</Path>
+            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/bluedevil/components/kde-qmlmodule.version</Path>
+            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/bluedevil/components/libbluedevilcomponents.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/qml/org/kde/bluedevil/components/qmldir</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/bluetooth/SharedDevicesStateProxyModel.qml</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/bluetooth/bluetoothplugin.qmltypes</Path>
             <Path fileType="library">/usr/lib64/qt6/qml/org/kde/plasma/private/bluetooth/kde-qmlmodule.version</Path>
@@ -207,24 +213,17 @@
             <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/kcm_bluetooth.mo</Path>
             <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/plasma_applet_org.kde.plasma.bluetooth.mo</Path>
             <Path fileType="data">/usr/share/mime/packages/bluedevil-mime.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/config/main.xml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/ui/DeviceItem.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/ui/FullRepresentation.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/ui/MediaPlayerItem.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/ui/Toolbar.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/contents/ui/main.qml</Path>
-            <Path fileType="data">/usr/share/plasma/plasmoids/org.kde.plasma.bluetooth/metadata.json</Path>
             <Path fileType="data">/usr/share/qlogging-categories6/bluedevil.categories</Path>
             <Path fileType="data">/usr/share/remoteview/bluetooth-network.desktop</Path>
         </Files>
     </Package>
     <History>
-        <Update release="134">
-            <Date>2026-01-30</Date>
-            <Version>6.5.5</Version>
+        <Update release="135">
+            <Date>2026-02-24</Date>
+            <Version>6.6.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

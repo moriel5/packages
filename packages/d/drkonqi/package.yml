@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : drkonqi
-version    : 6.5.5
-release    : 130
+version    : 6.6.1
+release    : 131
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/drkonqi-6.5.5.tar.xz : 79a9ee0f1011fc7813ca419d8c8098ce3be9ff74136d3bd80ef730fb7547f78f
+    - https://download.kde.org/stable/plasma/6.6.1/drkonqi-6.6.1.tar.xz : 019befea19c6a8d31ff3adca886b9547b1c12553f3702a23d57b9b5fa41fd332
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GPL-2.0-or-later

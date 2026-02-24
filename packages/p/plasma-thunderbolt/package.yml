@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-thunderbolt
-version    : 6.5.5
-release    : 93
+version    : 6.6.1
+release    : 94
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/plasma-thunderbolt-6.5.5.tar.xz : ef7b802713d1c399886cc2437c3f3ea4bfd9adeb74a6e15b9a86ef3f7b378629
+    - https://download.kde.org/stable/plasma/6.6.1/plasma-thunderbolt-6.6.1.tar.xz : 561033a11268d219ffea8dcaf4b7476232d459e302f5a4e59523355004882d81
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GPL-2.0-or-later

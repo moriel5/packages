@@ -1,3 +1,4 @@
+ld-linux-x86-64.so.2:__tls_get_addr
 libQt6Core.so.6:_Z20qEnvironmentVariablePKc
 libQt6Core.so.6:_Z21qRegisterResourceDataiPKhS0_S0_
 libQt6Core.so.6:_Z23qUnregisterResourceDataiPKhS0_S0_
@@ -32,6 +33,7 @@ libQt6Core.so.6:_ZN7QObject11qt_metacastEPKc
 libQt6Core.so.6:_ZN7QObject13connectNotifyERK11QMetaMethod
 libQt6Core.so.6:_ZN7QObject16disconnectNotifyERK11QMetaMethod
 libQt6Core.so.6:_ZN7QObject16staticMetaObjectE
+libQt6Core.so.6:_ZN7QObject18installEventFilterEPS_
 libQt6Core.so.6:_ZN7QObject5eventEP6QEvent
 libQt6Core.so.6:_ZN7QObjectC2EPS_
 libQt6Core.so.6:_ZN7QObjectD2Ev
@@ -58,12 +60,13 @@ libQt6Core.so.6:_ZrsR11QDataStreamR8QMargins
 libQt6Core.so.6:qt_version_tag
 libQt6Gui.so.6:_ZN15QGuiApplication11focusWindowEv
 libQt6Gui.so.6:_ZN16QNativeInterface7Private14QWaylandWindow25xdgActivationTokenCreatedERK7QString
+libQt6Gui.so.6:_ZN7QScreen16staticMetaObjectE
 libQt6Gui.so.6:_ZN7QWindow5closeEv
-libQt6Gui.so.6:_ZN7QWindow6createEv
 libQt6Gui.so.6:_ZNK15QPlatformWindow6windowEv
 libQt6Gui.so.6:_ZNK7QScreen6handleEv
 libQt6Gui.so.6:_ZNK7QWindow6handleEv
 libQt6Gui.so.6:_ZNK7QWindow6screenEv
+libQt6Gui.so.6:_ZNK7QWindow9isVisibleEv
 libQt6Gui.so.6:_ZTI15QPlatformScreen
 libQt6Gui.so.6:_ZTI15QPlatformWindow
 libQt6Gui.so.6:_Zls6QDebugPK7QWindow
@@ -117,10 +120,14 @@ libQt6WaylandClient.so.6:_ZTIN15QtWaylandClient30QWaylandShellIntegrationPluginE
 libc.so.6:__cxa_atexit
 libc.so.6:__stack_chk_fail
 libc.so.6:memcmp
+libc.so.6:pthread_once
 libc.so.6:strcmp
 libc.so.6:strlen
+libstdc++.so.6:_ZSt11__once_call
+libstdc++.so.6:_ZSt15__once_callable
 libstdc++.so.6:_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
 libstdc++.so.6:_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+libstdc++.so.6:_ZSt20__throw_system_errori
 libstdc++.so.6:_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_
 libstdc++.so.6:_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
 libstdc++.so.6:_ZTIv
@@ -135,6 +142,7 @@ libstdc++.so.6:__cxa_guard_acquire
 libstdc++.so.6:__cxa_guard_release
 libstdc++.so.6:__cxa_pure_virtual
 libstdc++.so.6:__dynamic_cast
+libstdc++.so.6:__once_proxy
 libwayland-client.so.0:wl_output_interface
 libwayland-client.so.0:wl_proxy_add_listener
 libwayland-client.so.0:wl_proxy_get_version

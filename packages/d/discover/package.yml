@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : discover
-version    : 6.5.5
-release    : 50
+version    : 6.6.1
+release    : 51
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/discover-6.5.5.tar.xz : 4202dd2d854b716c15b2f374965f5c1af69915d379c25bcbd4d0fbcf73699634
+    - https://download.kde.org/stable/plasma/6.6.1/discover-6.6.1.tar.xz : 54fbbbe8a63e2204ecde0df39a9cc500cc0fc202e1e317452f971a2d13295836
 homepage   : https://apps.kde.org/discover/
 license    : GPL-2.0-or-later
 component  : desktop.kde
@@ -47,7 +47,6 @@ clang      : true
 optimize   : thin-lto
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Allow-notifier-to-autostart-on-all-editions.patch
-    %patch -p1 -i $pkgfiles/port-to-kirigamiapp.patch
 
     %cmake_kf6 -DPACKAGEKIT_AUTOREMOVE=ON
 build      : |

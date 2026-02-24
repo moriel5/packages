@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : plasma-vault
-version    : 6.5.5
-release    : 105
+version    : 6.6.1
+release    : 106
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/plasma-vault-6.5.5.tar.xz : 3d1dcff463bc6cb7c328624f7a9e9e32591a82d283bc89b19eb9e0769ccafa70
+    - https://download.kde.org/stable/plasma/6.6.1/plasma-vault-6.6.1.tar.xz : 7c04cb60cfea937c1a8f9b39c588136b50c57b75f22c06ebf8bfba2d25dc19d0
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    : GPL-2.0-or-later
 component  : desktop.kde
@@ -15,6 +15,7 @@ builddeps  :
     - pkgconfig(libnm)
     - kf6-kdbusaddons-devel
     - kf6-kio-devel
+    - kf6-kirigami-devel
     - kf6-kitemmodels-devel
     - kf6-networkmanager-qt-devel
     - libksysguard-devel

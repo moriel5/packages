@@ -4,7 +4,7 @@
         <Homepage>https://www.kde.org/workspaces/plasmadesktop/</Homepage>
         <Packager>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Packager>
         <License>GFDL-1.2-only</License>
         <License>GPL-2.0-only</License>
@@ -33,9 +33,9 @@
             <Path fileType="library">/usr/lib64/kf6/kwin-tabbox-preview</Path>
             <Path fileType="library">/usr/lib64/kf6/kwin_killer_helper</Path>
             <Path fileType="library">/usr/lib64/libkcmkwincommon.so.6</Path>
-            <Path fileType="library">/usr/lib64/libkcmkwincommon.so.6.5.5</Path>
+            <Path fileType="library">/usr/lib64/libkcmkwincommon.so.6.6.1</Path>
             <Path fileType="library">/usr/lib64/libkwin.so.6</Path>
-            <Path fileType="library">/usr/lib64/libkwin.so.6.5.5</Path>
+            <Path fileType="library">/usr/lib64/libkwin.so.6.6.1</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/packagestructure/kwin_aurorae.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/packagestructure/kwin_decoration.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kf6/packagestructure/kwin_effect.so</Path>
@@ -59,6 +59,7 @@
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/BounceKeysPlugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/KeyNotificationPlugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/MouseKeysPlugin.so</Path>
+            <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/SlowKeysPlugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/StickyKeysPlugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/TouchpadShortcutsPlugin.so</Path>
             <Path fileType="library">/usr/lib64/qt6/plugins/kwin/plugins/buttonsrebind.so</Path>
@@ -865,6 +866,7 @@
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kcmkwinscreenedges.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kcmkwm.mo</Path>
             <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/kwin.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kcm_animations.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kcm_kwin_effects.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kcm_kwin_scripts.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ro/LC_MESSAGES/kcm_kwin_virtualdesktops.mo</Path>
@@ -1129,7 +1131,7 @@
         <Description xml:lang="en">KWin is the window manager for the KDE Plasma Desktop. It gives you complete control over your windows, making sure they&apos;re not in the way but aid you in your task. It paints the window decoration, the bar on top of every window with (configurable) buttons like close, maximize and minimize. It also handles placing of windows and switching between them.</Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="178">kwin</Dependency>
+            <Dependency release="179">kwin</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/kwin/a11ykeyboardmonitor.h</Path>
@@ -1139,6 +1141,7 @@
             <Path fileType="header">/usr/include/kwin/client_machine.h</Path>
             <Path fileType="header">/usr/include/kwin/compositor.h</Path>
             <Path fileType="header">/usr/include/kwin/config-kwin.h</Path>
+            <Path fileType="header">/usr/include/kwin/core/backendoutput.h</Path>
             <Path fileType="header">/usr/include/kwin/core/colorlut3d.h</Path>
             <Path fileType="header">/usr/include/kwin/core/colorpipeline.h</Path>
             <Path fileType="header">/usr/include/kwin/core/colorpipelinestage.h</Path>
@@ -1157,6 +1160,8 @@
             <Path fileType="header">/usr/include/kwin/core/outputconfiguration.h</Path>
             <Path fileType="header">/usr/include/kwin/core/outputlayer.h</Path>
             <Path fileType="header">/usr/include/kwin/core/pixelgrid.h</Path>
+            <Path fileType="header">/usr/include/kwin/core/rect.h</Path>
+            <Path fileType="header">/usr/include/kwin/core/region.h</Path>
             <Path fileType="header">/usr/include/kwin/core/renderbackend.h</Path>
             <Path fileType="header">/usr/include/kwin/core/renderjournal.h</Path>
             <Path fileType="header">/usr/include/kwin/core/renderloop.h</Path>
@@ -1285,6 +1290,7 @@
             <Path fileType="header">/usr/include/kwin/utils/ramfile.h</Path>
             <Path fileType="header">/usr/include/kwin/utils/realtime.h</Path>
             <Path fileType="header">/usr/include/kwin/utils/resource.h</Path>
+            <Path fileType="header">/usr/include/kwin/utils/serial.h</Path>
             <Path fileType="header">/usr/include/kwin/utils/serviceutils.h</Path>
             <Path fileType="header">/usr/include/kwin/utils/softwarevsyncmonitor.h</Path>
             <Path fileType="header">/usr/include/kwin/utils/subsurfacemonitor.h</Path>
@@ -1424,12 +1430,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="178">
-            <Date>2026-01-30</Date>
-            <Version>6.5.5</Version>
+        <Update release="179">
+            <Date>2026-02-24</Date>
+            <Version>6.6.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Email>harvey@getsol.us</Email>
         </Update>
     </History>
 </PISI>

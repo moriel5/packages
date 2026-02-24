@@ -327,7 +327,6 @@ libflatpak.so.0:flatpak_get_system_installations
 libflatpak.so.0:flatpak_installation_list_installed_refs_by_kind
 libflatpak.so.0:flatpak_installation_new_user
 libflatpak.so.0:flatpak_installed_ref_get_appdata_name
-libflatpak.so.0:flatpak_installed_ref_get_appdata_version
 libflatpak.so.0:flatpak_installed_ref_get_deploy_dir
 libflatpak.so.0:flatpak_ref_get_arch
 libflatpak.so.0:flatpak_ref_get_branch

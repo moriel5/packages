@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : wacomtablet
-version    : 6.5.5
-release    : 53
+version    : 6.6.1
+release    : 54
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/wacomtablet-6.5.5.tar.xz : be0c954e1984e88c3f5b8dcd6965481bd50eb9afe512562c1331f460c1b467d2
+    - https://download.kde.org/stable/plasma/6.6.1/wacomtablet-6.6.1.tar.xz : 5a8b6917d47f25cf1b956d6d28d5eea709fb4e597e4e75a655db0ef28a3a0847
 homepage   : https://invent.kde.org/system/wacomtablet
 license    : GPL-2.0-or-later
 component  : desktop.kde
@@ -21,6 +21,7 @@ builddeps  :
     - kf6-kglobalaccel-devel
     - kf6-ki18n-devel
     - kf6-kio-devel
+    - kf6-kirigami-devel
     - kf6-knotifications-devel
     - kf6-kwidgetsaddons-devel
     - kf6-kxmlgui-devel

@@ -5,13 +5,13 @@ Subject: [PATCH 3/6] Solus tweaks to default taskmanager
 
 - set grouped icons to show tooltips
 ---
- applets/taskmanager/package/contents/config/main.xml | 4 ++--
+ applets/taskmanager/main.xml | 4 ++--
  1 file changed, 1 insertions(+), 1 deletions(-)
 
-diff --git a/applets/taskmanager/package/contents/config/main.xml b/applets/taskmanager/package/contents/config/main.xml
+diff --git a/applets/taskmanager/main.xml b/applets/taskmanager/main.xml
 index 6bb27695d..658593525 100644
---- a/applets/taskmanager/package/contents/config/main.xml
-+++ b/applets/taskmanager/package/contents/config/main.xml
+--- a/applets/taskmanager/main.xml
++++ b/applets/taskmanager/main.xml
 @@ -32,7 +32,7 @@
      </entry>
      <entry name="groupedTaskVisualization" type="Enum">

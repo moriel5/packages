@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : milou
-version    : 6.5.5
-release    : 133
+version    : 6.6.1
+release    : 134
 source     :
-    - https://download.kde.org/stable/plasma/6.5.5/milou-6.5.5.tar.xz : e81d099a02d9fb4800d997338fc8428d88c8b21070e24a8d36dc1d0a123d89dd
+    - https://download.kde.org/stable/plasma/6.6.1/milou-6.6.1.tar.xz : 339b4d2216b107a11b09b623c4ed61dbb5e9213590795b402b91c48db597de51
 homepage   : https://www.kde.org/workspaces/plasmadesktop/
 license    :
     - GPL-2.0-or-later
@@ -16,6 +16,7 @@ builddeps  :
     - pkgconfig(Qt6Qml)
     - kf6-kconfig-devel
     - kf6-ki18n-devel
+    - kf6-kirigami-devel
     - kf6-krunner-devel
     - kf6-ksvg-devel
     - libplasma-devel
