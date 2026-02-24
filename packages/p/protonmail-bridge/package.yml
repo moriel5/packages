@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : protonmail-bridge
-version    : 3.21.2
-release    : 29
+version    : 3.22.0
+release    : 30
 source     :
-    - https://github.com/ProtonMail/proton-bridge/archive/refs/tags/v3.21.2.tar.gz : d6c373f219d7351b18277061faab24cd677c28ea4398de5c48f752e7a14f1c2a
+    - https://github.com/ProtonMail/proton-bridge/archive/refs/tags/v3.22.0.tar.gz : 15c9daa5bbb9db6e61d9644f346dc9d4df3bda59ccd3d73ae4b889d64f4874cf
 homepage   : https://proton.me/mail/bridge
 license    : GPL-3.0-or-later
 component  : network.mail
@@ -18,6 +18,7 @@ builddeps  :
     - pkgconfig(Qt6WaylandCompositor)
     - pkgconfig(Qt6Widgets)
     - pkgconfig(grpc)
+    - pkgconfig(libfido2)
     - pkgconfig(libsecret-1)
     - pkgconfig(openssl)
     - pkgconfig(protobuf)
