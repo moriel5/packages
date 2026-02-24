@@ -156,6 +156,7 @@ libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface11qt_metacallEN11QMetaObject4
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface11qt_metacastEPKc
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface15serviceSelectedERK28QExplicitlySharedDataPointerI8KServiceE
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface16staticMetaObjectE
+libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface7handledEv
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterface8canceledEv
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterfaceC2EP7QObject
 libKF5KIOGui.so.5:_ZN3KIO24OpenWithHandlerInterfaceD2Ev
@@ -252,6 +253,7 @@ libKF6ConfigCore.so.6:_ZN12KConfigGroup12moveValuesToERS_6QFlagsIN11KConfigBase1
 libKF6ConfigCore.so.6:_ZN12KConfigGroup14writePathEntryEPKcRK5QListI7QStringE6QFlagsIN11KConfigBase15WriteConfigFlagEE
 libKF6ConfigCore.so.6:_ZNK12KConfigGroup13readPathEntryEPKcRK5QListI7QStringE
 libKF6ConfigCore.so.6:_ZNK12KConfigGroup9readEntryEPKcRK5QListI7QStringE
+libKF6GuiAddons.so.6:_ZN11KJobWindows6windowEP7QObject
 libKF6GuiAddons.so.6:_ZN27KCountryFlagEmojiIconEngine20setGlobalDefaultFontERK5QFont
 libKF6JobWidgets.so.6:_ZN20KDialogJobUiDelegate11slotWarningEP4KJobRK7QString
 libKF6KIOCore.so.6:_ZN11KFileFilter13fromMimeTypesERK5QListI7QStringE
@@ -1209,8 +1211,11 @@ libQt6DBus.so.6:_Z14qDBusReplyFillRK12QDBusMessageR10QDBusErrorR8QVariant
 libQt6DBus.so.6:_Z40qRegisterNormalizedMetaType_QDBusVariantRK10QByteArray
 libQt6DBus.so.6:_Z41qRegisterNormalizedMetaType_QDBusArgumentRK10QByteArray
 libQt6DBus.so.6:_Z43qRegisterNormalizedMetaType_QDBusObjectPathRK10QByteArray
+libQt6DBus.so.6:_Z51qRegisterNormalizedMetaType_QDBusUnixFileDescriptorRK10QByteArray
 libQt6DBus.so.6:_ZN10QDBusErrorC1Ev
 libQt6DBus.so.6:_ZN12QDBusMessage16createMethodCallERK7QStringS2_S2_S2_
+libQt6DBus.so.6:_ZN12QDBusMessageC1ERKS_
+libQt6DBus.so.6:_ZN12QDBusMessageC1Ev
 libQt6DBus.so.6:_ZN12QDBusMessageD1Ev
 libQt6DBus.so.6:_ZN12QDBusMessagelsERK8QVariant
 libQt6DBus.so.6:_ZN13QDBusArgument10beginArrayE9QMetaType
@@ -1226,6 +1231,8 @@ libQt6DBus.so.6:_ZN13QDBusMetaType25registerMarshallOperatorsE9QMetaTypePFvR13QD
 libQt6DBus.so.6:_ZN15QDBusConnection10sessionBusEv
 libQt6DBus.so.6:_ZN15QDBusConnection7connectERK7QStringS2_S2_S2_P7QObjectPKc
 libQt6DBus.so.6:_ZN15QDBusConnectionD1Ev
+libQt6DBus.so.6:_ZN16QDBusPendingCall15waitForFinishedEv
+libQt6DBus.so.6:_ZN16QDBusPendingCallC1ERKS_
 libQt6DBus.so.6:_ZN16QDBusPendingCallC2ERKS_
 libQt6DBus.so.6:_ZN16QDBusPendingCallD1Ev
 libQt6DBus.so.6:_ZN21QDBusPendingReplyBase12setMetaTypesEiPK9QMetaType
@@ -1243,9 +1250,14 @@ libQt6DBus.so.6:_ZN22QDBusAbstractInterfaceD2Ev
 libQt6DBus.so.6:_ZN23QDBusPendingCallWatcher16staticMetaObjectE
 libQt6DBus.so.6:_ZN23QDBusPendingCallWatcher8finishedEPS_
 libQt6DBus.so.6:_ZN23QDBusPendingCallWatcherC1ERK16QDBusPendingCallP7QObject
+libQt6DBus.so.6:_ZN23QDBusUnixFileDescriptor18giveFileDescriptorEi
+libQt6DBus.so.6:_ZN23QDBusUnixFileDescriptorC1ERKS_
+libQt6DBus.so.6:_ZN23QDBusUnixFileDescriptorC1Ev
+libQt6DBus.so.6:_ZN23QDBusUnixFileDescriptorD1Ev
 libQt6DBus.so.6:_ZNK10QDBusError7isValidEv
 libQt6DBus.so.6:_ZNK10QDBusError7messageEv
 libQt6DBus.so.6:_ZNK12QDBusMessage4typeEv
+libQt6DBus.so.6:_ZNK12QDBusMessage7serviceEv
 libQt6DBus.so.6:_ZNK12QDBusMessage9argumentsEv
 libQt6DBus.so.6:_ZNK13QDBusArgument10beginArrayEv
 libQt6DBus.so.6:_ZNK13QDBusArgument11endMapEntryEv
@@ -1262,6 +1274,7 @@ libQt6DBus.so.6:_ZNK13QDBusArgumentrsERj
 libQt6DBus.so.6:_ZNK15QDBusConnection4callERK12QDBusMessageN5QDBus8CallModeEi
 libQt6DBus.so.6:_ZNK15QDBusConnection9asyncCallERK12QDBusMessagei
 libQt6DBus.so.6:_ZNK16QDBusPendingCall5errorEv
+libQt6DBus.so.6:_ZNK16QDBusPendingCall5replyEv
 libQt6DBus.so.6:_ZNK16QDBusPendingCall7isErrorEv
 libQt6DBus.so.6:_ZNK21QDBusPendingReplyBase10argumentAtEi
 libQt6DBus.so.6:_ZNK22QDBusAbstractInterface7isValidEv
@@ -1666,6 +1679,7 @@ libQt6Widgets.so.6:_ZThn16_NK7QWidget7devTypeEv
 libXcursor.so.1:XcursorSetDefaultSize
 libXcursor.so.1:XcursorSetTheme
 libc.so.6:__cxa_atexit
+libc.so.6:__open_2
 libc.so.6:__stack_chk_fail
 libc.so.6:free
 libc.so.6:memcmp
