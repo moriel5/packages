@@ -80,6 +80,7 @@ libKPipeWireRecord.so.6:_ZN21PipeWireEncodedStream9newPacketERKNS_6PacketE
 libKPipeWireRecord.so.6:_ZN21PipeWireEncodedStreamC1EP7QObject
 libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream10setEncoderENS_7EncoderE
 libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream10setQualityEh
+libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream13setColorRangeENS_10ColorRangeE
 libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream15setMaxFramerateERK8Fraction
 libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream19setMaxPendingFramesEi
 libKPipeWireRecord.so.6:_ZN25PipeWireBaseEncodedStream21setEncodingPreferenceENS_18EncodingPreferenceE
@@ -227,8 +228,10 @@ libQt6Core.so.6:_ZN9QMetaType7convertES_PKvS_Pv
 libQt6Core.so.6:_ZN9QMimeData7setDataERK7QStringRK10QByteArray
 libQt6Core.so.6:_ZN9QMimeData7setTextERK7QString
 libQt6Core.so.6:_ZN9QMimeDataC1Ev
+libQt6Core.so.6:_ZN9QtPrivate12equalStringsE11QStringView13QLatin1String
 libQt6Core.so.6:_ZN9QtPrivate12equalStringsE11QStringViewS0_
 libQt6Core.so.6:_ZN9QtPrivate14compareStringsE11QStringViewS0_N2Qt15CaseSensitivityE
+libQt6Core.so.6:_ZN9QtPrivate16QStringList_joinERK5QListI7QStringE13QLatin1String
 libQt6Core.so.6:_ZN9QtPrivate16convertToQStringE14QAnyStringView
 libQt6Core.so.6:_ZN9QtPrivate20QStringList_containsEPK5QListI7QStringE11QStringViewN2Qt15CaseSensitivityE
 libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperI4QMapI7QString8QVariantEE8metaTypeE
@@ -242,6 +245,7 @@ libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIiE8metaTypeE
 libQt6Core.so.6:_ZN9QtPrivate25QMetaTypeInterfaceWrapperIjE8metaTypeE
 libQt6Core.so.6:_ZN9QtPrivate52hasRegisteredConverterFunctionToIterableMetaSequenceE9QMetaType
 libQt6Core.so.6:_ZN9QtPrivate54hasRegisteredMutableViewFunctionToIterableMetaSequenceE9QMetaType
+libQt6Core.so.6:_ZNK10QByteArray5toHexEc
 libQt6Core.so.6:_ZNK11QMetaObject4castEPK7QObject
 libQt6Core.so.6:_ZNK11QMetaObject9classNameEv
 libQt6Core.so.6:_ZNK11QObjectData17dynamicMetaObjectEv
@@ -249,6 +253,7 @@ libQt6Core.so.6:_ZNK11QStringView8toDoubleEPb
 libQt6Core.so.6:_ZNK14QMessageLogger4infoEv
 libQt6Core.so.6:_ZNK14QMessageLogger5debugEPFRK16QLoggingCategoryvE
 libQt6Core.so.6:_ZNK14QMessageLogger5debugEv
+libQt6Core.so.6:_ZNK14QMessageLogger5fatalEPKcz
 libQt6Core.so.6:_ZNK14QMessageLogger7warningEPFRK16QLoggingCategoryvE
 libQt6Core.so.6:_ZNK14QMessageLogger7warningEPKcz
 libQt6Core.so.6:_ZNK14QMessageLogger7warningEv
@@ -286,10 +291,13 @@ libQt6Core.so.6:_ZNK5QTime6minuteEv
 libQt6Core.so.6:_ZNK5QTime6secondEv
 libQt6Core.so.6:_ZNK7QObject8propertyEPKc
 libQt6Core.so.6:_ZNK7QString11toStdStringB5cxx11Ev
+libQt6Core.so.6:_ZNK7QString5utf16Ev
 libQt6Core.so.6:_ZNK7QString6toUcs4Ev
+libQt6Core.so.6:_ZNK7QString7sectionERKS_xx6QFlagsINS_11SectionFlagEE
+libQt6Core.so.6:_ZNK7QString8arg_implE14QAnyStringViewi5QChar
 libQt6Core.so.6:_ZNK7QString8arg_implEyii5QChar
+libQt6Core.so.6:_ZNK8QVariant11toByteArrayEv
 libQt6Core.so.6:_ZNK8QVariant12qdebugHelperE6QDebug
-libQt6Core.so.6:_ZNK8QVariant5toIntEPb
 libQt6Core.so.6:_ZNK8QVariant6equalsERKS_
 libQt6Core.so.6:_ZNK8QVariant6toBoolEv
 libQt6Core.so.6:_ZNK8QVariant6toUIntEPb
@@ -465,7 +473,6 @@ libc.so.6:abort
 libc.so.6:calloc
 libc.so.6:close
 libc.so.6:free
-libc.so.6:malloc
 libc.so.6:memcmp
 libc.so.6:memcpy
 libc.so.6:memmove
@@ -562,6 +569,15 @@ libstdc++.so.6:__cxa_guard_acquire
 libstdc++.so.6:__cxa_guard_release
 libstdc++.so.6:__cxa_pure_virtual
 libstdc++.so.6:__once_proxy
+libsystemd.so.0:sd_journal_add_conjunction
+libsystemd.so.0:sd_journal_add_disjunction
+libsystemd.so.0:sd_journal_add_match
+libsystemd.so.0:sd_journal_close
+libsystemd.so.0:sd_journal_flush_matches
+libsystemd.so.0:sd_journal_get_data
+libsystemd.so.0:sd_journal_open
+libsystemd.so.0:sd_journal_previous
+libsystemd.so.0:sd_journal_seek_tail
 libwayland-client.so.0:wl_proxy_add_listener
 libwayland-client.so.0:wl_proxy_get_version
 libwayland-client.so.0:wl_proxy_marshal_constructor_versioned

@@ -22,6 +22,7 @@ libm.so.6
 libpam.so.0
 libqt6keychain.so.1
 libstdc++.so.6
+libsystemd.so.0
 libwayland-client.so.0
 libwinpr3.so.3
 libxkbcommon.so.0
