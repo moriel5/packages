@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : halloy
-version    : '2026.2'
-release    : 9
+version    : '2026.3'
+release    : 10
 source     :
-    - https://github.com/squidowl/halloy/archive/refs/tags/2026.2.tar.gz : 3c2b99f8fa20ad30187aa901ae562ece2db3fb088a0a16eaf86b7222cb816219
+    - https://github.com/squidowl/halloy/archive/refs/tags/2026.3.tar.gz : a6e9519f800e6dc7bcab0b4f3678c5a89c11a7ae2de2bafe1dce430e9351f946
 homepage   : https://halloy.squidowl.org/
 license    : GPL-3.0-or-later
 component  : network.im
