@@ -4212,6 +4212,10 @@
 		<Package>dotnet-8-sdk</Package>
 		<Package>dotnet-8-source-built-artifacts</Package>
 
+		<!-- Too difficult to build & maintain -->
+		<Package>rstudio</Package>
+		<Package>rstudio-dbginfo</Package>
+
 		<!-- No longer needed separately -->
 		<Package>python-cryptography-vectors</Package>
 	</Obsoletes>
