@@ -106,7 +106,6 @@ libc.so.6:strcpy
 libc.so.6:strerror
 libc.so.6:strlen
 libc.so.6:strrchr
-libc.so.6:strtod
 libc.so.6:strtol
 libc.so.6:sysinfo
 libc.so.6:textdomain
