@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : brave
-version    : 1.87.190
-release    : 255
+version    : 1.87.191
+release    : 256
 source     :
-    - https://github.com/brave/brave-browser/releases/download/v1.87.190/brave-browser_1.87.190_amd64.deb : 810d4b492292555ed83854c51c434321017bdc2c8caff9d835cc5839bfeac3ec
+    - https://github.com/brave/brave-browser/releases/download/v1.87.191/brave-browser_1.87.191_amd64.deb : a7681d2b39346136587224af9693b4437d70f3f78d384d569a1bd69b4a68a752
 homepage   : https://brave.com
 license    :
     - GPL-2.0-or-later # Privacy Badger
