@@ -3,8 +3,8 @@
         <Name>openmw</Name>
         <Homepage>https://openmw.org/</Homepage>
         <Packager>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-or-later</License>
         <PartOf>games.rpg</PartOf>
@@ -400,12 +400,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="49">
-            <Date>2026-01-03</Date>
+        <Update release="50">
+            <Date>2026-02-25</Date>
             <Version>0.50.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
