@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : firefox
-version    : 147.0.4
-release    : 389
+version    : '148.0'
+release    : 390
 source     :
-    - https://ftp.mozilla.org/pub/firefox/releases/147.0.4/source/firefox-147.0.4.source.tar.xz : bc0742ac62b177987d3312352194d4a088396ccf7b02e94be88f8072d82e94f7
+    - https://ftp.mozilla.org/pub/firefox/releases/148.0/source/firefox-148.0.source.tar.xz : ec93e5040a23b7dbe9ec77eb4a7ccda9820856d7851bf2f617f3673b6354cb6f
 homepage   : https://www.mozilla.org/firefox/
 license    :
     - GPL-2.0-or-later
@@ -14,6 +14,7 @@ description: |
     Mozilla Firefox is an open-source web browser, designed for standards compliance, performance and portability. Its functionality can be enhanced via a plethora of extensions.
 clang      : true
 optimize   : icf-safe
+networking : true
 builddeps  :
     - pkgconfig(alsa)
     # Temporarily disabled until Fedora patch is updated
@@ -56,15 +57,19 @@ rundeps    :
     - firefox-langpacks
 environment: |
     export MOZ_NOSPAM=1
-    export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+    # Causes error mozshellutil not found with v148
+    # export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
     export MOZBUILD_STATE_PATH=$PWD
     export MOZ_BUILD_DATE="$(date -u${SOURCE_DATE_EPOCH:+d @$SOURCE_DATE_EPOCH} +%Y%m%d%H%M%S)"
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Fix-Firefox-Thunderbird-envvar-conflicts.patch
     %patch -p1 -i $pkgfiles/0001-Allow-installing-addons-from-user-scope.patch
+    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1.patch
+    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1-2.patch
 
     # v144.0.2 would not build with python-zstandard v0.25.0
-    sed -i 's/zstandard>=0.11.1,<=0.24.0/zstandard>=0.11.1,<=0.25.0/' python/sites/mach.txt
+    # Fix not needed since we had to remove MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+    # sed -i 's/zstandard>=0.11.1,<=0.24.0/zstandard>=0.11.1,<=0.25.0/' python/sites/mach.txt
 
     # Temporarily disabled until Fedora patch is updated
     # %patch -p1 -i $pkgfiles/bmo-1559213-Support-system-av1.patch
