@@ -74,9 +74,11 @@ libusb-1.0.so.0:libusb_free_device_list
 libusb-1.0.so.0:libusb_free_transfer
 libusb-1.0.so.0:libusb_get_active_config_descriptor
 libusb-1.0.so.0:libusb_get_bus_number
+libusb-1.0.so.0:libusb_get_device
 libusb-1.0.so.0:libusb_get_device_address
 libusb-1.0.so.0:libusb_get_device_descriptor
 libusb-1.0.so.0:libusb_get_device_list
+libusb-1.0.so.0:libusb_get_port_numbers
 libusb-1.0.so.0:libusb_get_string_descriptor_ascii
 libusb-1.0.so.0:libusb_handle_events_completed
 libusb-1.0.so.0:libusb_init
