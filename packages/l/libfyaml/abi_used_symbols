@@ -28,13 +28,12 @@ libc.so.6:fgets
 libc.so.6:fileno
 libc.so.6:fopen
 libc.so.6:fputc
-libc.so.6:fputs
 libc.so.6:fread
 libc.so.6:free
 libc.so.6:fstat
 libc.so.6:fwrite
 libc.so.6:getenv
-libc.so.6:getopt_long_only
+libc.so.6:getopt_long
 libc.so.6:isatty
 libc.so.6:malloc
 libc.so.6:memchr
@@ -44,6 +43,7 @@ libc.so.6:memmove
 libc.so.6:memset
 libc.so.6:mincore
 libc.so.6:mmap
+libc.so.6:mremap
 libc.so.6:munmap
 libc.so.6:open
 libc.so.6:open_memstream
@@ -54,9 +54,9 @@ libc.so.6:pthread_create
 libc.so.6:pthread_getspecific
 libc.so.6:pthread_join
 libc.so.6:pthread_key_create
+libc.so.6:pthread_mutex_lock
+libc.so.6:pthread_mutex_unlock
 libc.so.6:pthread_setspecific
-libc.so.6:putchar
-libc.so.6:puts
 libc.so.6:qsort_r
 libc.so.6:read
 libc.so.6:readlink
