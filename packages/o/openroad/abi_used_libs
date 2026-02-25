@@ -20,5 +20,5 @@ libspdlog.so.1.17
 libstdc++.so.6
 libtcl.so
 libtcl8.6.so
-libyaml-cpp.so.0.7
+libyaml-cpp.so.0.9
 libz.so.1
