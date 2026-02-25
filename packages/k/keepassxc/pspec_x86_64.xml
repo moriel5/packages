@@ -3,8 +3,8 @@
         <Name>keepassxc</Name>
         <Homepage>https://keepassxc.org</Homepage>
         <Packager>
-            <Name>Matthias Homann</Name>
-            <Email>palto@mailbox.org</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>BSD-2-Clause</License>
         <License>BSD-3-Clause</License>
@@ -91,6 +91,16 @@ It provides strong password generation, customizable organization, and fast sear
             <Path fileType="data">/usr/share/keepassxc/translations/keepassxc_zh_CN.qm</Path>
             <Path fileType="data">/usr/share/keepassxc/translations/keepassxc_zh_TW.qm</Path>
             <Path fileType="data">/usr/share/keepassxc/wordlists/eff_large.wordlist</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/COPYING</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.BSD</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.CC0</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.GPL-2</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.GPL-3</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.LGPL-2.1</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.LGPL-3</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.MIT</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.NOKIA-LGPL-EXCEPTION</Path>
+            <Path fileType="data">/usr/share/licenses/keepassxc/LICENSE.OFL</Path>
             <Path fileType="data">/usr/share/metainfo/org.keepassxc.KeePassXC.appdata.xml</Path>
             <Path fileType="data">/usr/share/mime/packages/keepassxc.xml</Path>
         </Files>
@@ -99,12 +109,12 @@ It provides strong password generation, customizable organization, and fast sear
         </Replaces>
     </Package>
     <History>
-        <Update release="51">
-            <Date>2025-11-27</Date>
+        <Update release="52">
+            <Date>2026-02-25</Date>
             <Version>2.7.11</Version>
             <Comment>Packaging update</Comment>
-            <Name>Matthias Homann</Name>
-            <Email>palto@mailbox.org</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
