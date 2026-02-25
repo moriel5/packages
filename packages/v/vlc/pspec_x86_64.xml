@@ -3,8 +3,8 @@
         <Name>vlc</Name>
         <Homepage>https://www.videolan.org/</Homepage>
         <Packager>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <License>LGPL-2.1-or-later</License>
@@ -19,7 +19,7 @@
         <Description xml:lang="en">VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.</Description>
         <PartOf>multimedia.video</PartOf>
         <RuntimeDependencies>
-            <Dependency release="195">vlc-core</Dependency>
+            <Dependency release="196">vlc-core</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/cvlc</Path>
@@ -122,7 +122,7 @@
             <Path fileType="data">/usr/share/licenses/vlc/THANKS</Path>
             <Path fileType="man">/usr/share/man/man1/vlc-wrapper.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/vlc.1.zst</Path>
-            <Path fileType="data">/usr/share/metainfo/vlc.appdata.xml</Path>
+            <Path fileType="data">/usr/share/metainfo/org.videolan.vlc.appdata.xml</Path>
             <Path fileType="data">/usr/share/vlc/lua/http/css/main.css</Path>
             <Path fileType="data">/usr/share/vlc/lua/http/css/mobile.css</Path>
             <Path fileType="data">/usr/share/vlc/lua/http/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png</Path>
@@ -361,6 +361,7 @@
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libdemuxdump_plugin.so</Path>
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libdiracsys_plugin.so</Path>
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libdirectory_demux_plugin.so</Path>
+            <Path fileType="library">/usr/lib64/vlc/plugins/demux/libdmxmus_plugin.so</Path>
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libes_plugin.so</Path>
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libflacsys_plugin.so</Path>
             <Path fileType="library">/usr/lib64/vlc/plugins/demux/libh26x_plugin.so</Path>
@@ -565,7 +566,7 @@
             <Path fileType="localedata">/usr/share/locale/am_ET/LC_MESSAGES/vlc.mo</Path>
             <Path fileType="localedata">/usr/share/locale/an/LC_MESSAGES/vlc.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ar/LC_MESSAGES/vlc.mo</Path>
-            <Path fileType="localedata">/usr/share/locale/as_IN/LC_MESSAGES/vlc.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/as/LC_MESSAGES/vlc.mo</Path>
             <Path fileType="localedata">/usr/share/locale/ast/LC_MESSAGES/vlc.mo</Path>
             <Path fileType="localedata">/usr/share/locale/be/LC_MESSAGES/vlc.mo</Path>
             <Path fileType="localedata">/usr/share/locale/bg/LC_MESSAGES/vlc.mo</Path>
@@ -671,8 +672,8 @@
         <Description xml:lang="en">VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.</Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="195">vlc</Dependency>
-            <Dependency release="195">vlc-core</Dependency>
+            <Dependency release="196">vlc-core</Dependency>
+            <Dependency release="196">vlc</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/vlc/deprecated.h</Path>
@@ -821,12 +822,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="195">
-            <Date>2026-02-07</Date>
-            <Version>3.0.21</Version>
+        <Update release="196">
+            <Date>2026-02-25</Date>
+            <Version>3.0.23</Version>
             <Comment>Packaging update</Comment>
-            <Name>David Harder</Name>
-            <Email>david@davidjharder.ca</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
