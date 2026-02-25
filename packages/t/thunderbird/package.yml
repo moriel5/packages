@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : thunderbird
-version    : 140.7.2
-release    : 248
+version    : '148.0'
+release    : 249
 source     :
-    - https://ftp.mozilla.org/pub/thunderbird/releases/140.7.2esr/source/thunderbird-140.7.2esr.source.tar.xz : 3a5f9375d1172432799dc09f908f94b229452d478890f2c87ff3933e500afe5f
+    - https://ftp.mozilla.org/pub/thunderbird/releases/148.0/source/thunderbird-148.0.source.tar.xz : 9ea77f583695a898c225baa065b3db5a0d196f4e1da8bacba994e4a8c564b0c3
 license    :
     - GPL-2.0-or-later
     - LGPL-2.1-or-later
@@ -44,15 +44,21 @@ builddeps  :
 rundeps    :
     - thunderbird-langpacks
 environment: |
-    export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+    # Causes error mozshellutil not found with v148
+    # export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
     export MOZBUILD_STATE_PATH=$PWD
 setup      : |
+    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1.patch
+    %patch -p1 -i $pkgfiles/ftbfs-gcc-15.2.1-2.patch
+    %patch -p1 -i $pkgfiles/0023-bmo-2006630-remove-gitmodules-and-gitattributes-from-cargo-checksum-files.patch
+
     cp $pkgfiles/*-api-key .
     cp $pkgfiles/config mozconfig
     sed -e 's|##JOBCOUNT##|%JOBS%|' -e 's|##LIBDIR##|%libdir%|' -e 's|##WORKDIR##|%workdir%|' -i mozconfig
 
     # v140.5.0 would not build with python-zstandard v0.25.0
-    sed -i 's/zstandard>=0.11.1,<=0.23.0/zstandard>=0.11.1,<=0.25.0/' python/sites/mach.txt
+    # Fix not needed since we had to remove MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=system
+    # sed -i 's/zstandard>=0.11.1,<=0.24.0/zstandard>=0.11.1,<=0.25.0/' python/sites/mach.txt
 
     %patch -p1 -i $pkgfiles/0001-Fix-Firefox-Thunderbird-envvar-conflicts.patch
     %patch -p1 -i $pkgfiles/0002-Fix-appstream-metainfo.patch
