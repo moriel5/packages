@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : feh
-version    : 3.11.2
-release    : 51
+version    : 3.11.3
+release    : 52
 source     :
-    - https://feh.finalrewind.org/feh-3.11.2.tar.bz2 : 020f8bce84c709333dcc6ec5fff36313782e0b50662754947c6585d922a7a7b2
+    - https://feh.finalrewind.org/feh-3.11.3.tar.bz2 : f2cca3592a433922c0db7a9365fd63e5402c121d932a9327e279c71be6501063
 homepage   : https://feh.finalrewind.org/
 license    : MIT
 component  : multimedia.graphics
