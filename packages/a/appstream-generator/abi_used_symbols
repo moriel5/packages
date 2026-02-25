@@ -35,6 +35,7 @@ libappstream-compose.so.0:asc_compose_set_locale_unit
 libappstream-compose.so.0:asc_compose_set_max_screenshot_size
 libappstream-compose.so.0:asc_compose_set_media_baseurl
 libappstream-compose.so.0:asc_compose_set_media_result_dir
+libappstream-compose.so.0:asc_compose_set_prefix
 libappstream-compose.so.0:asc_globals_add_hint_tag
 libappstream-compose.so.0:asc_globals_get_hint_tags
 libappstream-compose.so.0:asc_globals_get_optipng_binary
@@ -189,6 +190,8 @@ libc.so.6:__stack_chk_fail
 libc.so.6:bindtextdomain
 libc.so.6:chmod
 libc.so.6:dgettext
+libc.so.6:dlopen
+libc.so.6:dlsym
 libc.so.6:exit
 libc.so.6:free
 libc.so.6:getenv
@@ -358,7 +361,6 @@ libstdc++.so.6:_ZNSt10filesystem14create_symlinkERKNS_7__cxx114pathES3_
 libstdc++.so.6:_ZNSt10filesystem15last_write_timeERKNS_7__cxx114pathE
 libstdc++.so.6:_ZNSt10filesystem16create_directoryERKNS_7__cxx114pathE
 libstdc++.so.6:_ZNSt10filesystem16create_hard_linkERKNS_7__cxx114pathES3_
-libstdc++.so.6:_ZNSt10filesystem16weakly_canonicalERKNS_7__cxx114pathE
 libstdc++.so.6:_ZNSt10filesystem18create_directoriesERKNS_7__cxx114pathE
 libstdc++.so.6:_ZNSt10filesystem18create_directoriesERKNS_7__cxx114pathERSt10error_code
 libstdc++.so.6:_ZNSt10filesystem19temp_directory_pathB5cxx11Ev
