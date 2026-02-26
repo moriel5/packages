@@ -329,6 +329,7 @@ libQt6Pas.so.6:QFont_styleStrategy
 libQt6Pas.so.6:QFont_underline
 libQt6Pas.so.6:QFont_weight
 libQt6Pas.so.6:QFrame_Create
+libQt6Pas.so.6:QFrame_setFrameShadow
 libQt6Pas.so.6:QFrame_setFrameShape
 libQt6Pas.so.6:QGradient_Destroy
 libQt6Pas.so.6:QGradient_setColorAt
@@ -442,12 +443,14 @@ libQt6Pas.so.6:QLCLMessageEvent_getMsgResult
 libQt6Pas.so.6:QLCLMessageEvent_getWParam
 libQt6Pas.so.6:QLCLMessageEvent_setMsgResult
 libQt6Pas.so.6:QLCLTabWidget_tabBarHandle
+libQt6Pas.so.6:QLabel_Create
 libQt6Pas.so.6:QLabel_Create2
 libQt6Pas.so.6:QLabel_setAlignment
 libQt6Pas.so.6:QLabel_setPixmap
 libQt6Pas.so.6:QLabel_setScaledContents
 libQt6Pas.so.6:QLabel_setText
 libQt6Pas.so.6:QLabel_setWordWrap
+libQt6Pas.so.6:QLabel_text
 libQt6Pas.so.6:QLayout_addWidget
 libQt6Pas.so.6:QLayout_invalidate
 libQt6Pas.so.6:QLayout_setContentsMargins
@@ -1210,6 +1213,7 @@ libc.so.6:iconv_open
 libc.so.6:mbrlen
 libc.so.6:mbrtowc
 libc.so.6:nl_langinfo
+libc.so.6:sched_yield
 libc.so.6:setlocale
 libc.so.6:strcoll
 libc.so.6:towlower
