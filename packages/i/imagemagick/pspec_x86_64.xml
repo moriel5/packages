@@ -94,7 +94,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="206">imagemagick</Dependency>
+            <Dependency release="207">imagemagick</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="header">/usr/include/ImageMagick-7/Magick++.h</Path>
@@ -593,9 +593,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="206">
-            <Date>2026-02-01</Date>
-            <Version>7.1.2.13</Version>
+        <Update release="207">
+            <Date>2026-02-26</Date>
+            <Version>7.1.2.15</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
