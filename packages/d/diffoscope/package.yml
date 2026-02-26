@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : diffoscope
-version    : '312'
-release    : 13
+version    : '313'
+release    : 14
 source     :
-    - https://diffoscope.org/archive/diffoscope-312.tar.bz2 : 6c82cb1343303d81d0b64bc84226db919d1d10dc926ec85a597d685831909aef
+    - https://diffoscope.org/archive/diffoscope-313.tar.bz2 : ace8d6c5bea75af7cc5abdbef40ca80a83928368e8dd97a817c47a03c56f063f
 homepage   : https://diffoscope.org/
 license    : GPL-3.0-or-later
 component  : programming.python
@@ -43,5 +43,6 @@ build      : |
     make -C doc
 install    : |
     %python3_install
+    %install_license COPYING
     install -Dm00644 debian/zsh-completion/_diffoscope -t $installdir/usr/share/zsh/site-functions/
     install -Dm00644 doc/diffoscope.1 -t $installdir/usr/share/man/man1
