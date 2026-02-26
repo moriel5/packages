@@ -3,8 +3,8 @@
         <Name>php</Name>
         <Homepage>https://www.php.net</Homepage>
         <Packager>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>PHP-3.01</License>
         <PartOf>programming</PartOf>
@@ -78,7 +78,7 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="110">php</Dependency>
+            <Dependency release="111">php</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/phpize</Path>
@@ -425,12 +425,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="110">
-            <Date>2026-02-22</Date>
+        <Update release="111">
+            <Date>2026-02-26</Date>
             <Version>8.5.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Jared Cervantes</Name>
-            <Email>jared@jaredcervantes.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
