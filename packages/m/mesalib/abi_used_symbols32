@@ -553,6 +553,7 @@ libc.so.6:mkfifo
 libc.so.6:mkfifoat
 libc.so.6:mkostemp64
 libc.so.6:mkstemp64
+libc.so.6:mkstemps64
 libc.so.6:mmap64
 libc.so.6:mprotect
 libc.so.6:munmap
@@ -1006,6 +1007,7 @@ libstdc++.so.6:_ZdaPvj
 libstdc++.so.6:_ZdlPvj
 libstdc++.so.6:_Znaj
 libstdc++.so.6:_Znwj
+libstdc++.so.6:_ZnwjRKSt9nothrow_t
 libstdc++.so.6:__cxa_allocate_exception
 libstdc++.so.6:__cxa_begin_catch
 libstdc++.so.6:__cxa_end_catch
