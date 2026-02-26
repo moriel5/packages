@@ -1465,6 +1465,7 @@ valkey-server:ACLInitCommandCategories
 valkey-server:ACLLoadUsersAtStartup
 valkey-server:ACLLog
 valkey-server:ACLLogEntryCount
+valkey-server:ACLModuleHasCommandRules
 valkey-server:ACLRecomputeCommandBitsFromCommandRulesAllUsers
 valkey-server:ACLSetUser
 valkey-server:ACLSetUserStringError
@@ -3261,6 +3262,7 @@ valkey-server:addReplyErrorLength
 valkey-server:addReplyErrorObject
 valkey-server:addReplyErrorSds
 valkey-server:addReplyErrorSdsEx
+valkey-server:addReplyErrorSdsExSafe
 valkey-server:addReplyErrorSdsSafe
 valkey-server:addReplyFlagsForArg
 valkey-server:addReplyFlagsForCommand
@@ -4176,6 +4178,7 @@ valkey-server:freeClientBlockingState
 valkey-server:freeClientModuleData
 valkey-server:freeClientMultiState
 valkey-server:freeClientMultiStateCmds
+valkey-server:freeClientOrCloseLater
 valkey-server:freeClientOriginalArgv
 valkey-server:freeClientPubSubData
 valkey-server:freeClientReplicationData
@@ -5279,6 +5282,7 @@ valkey-server:moduleFreeArgs
 valkey-server:moduleFreeCommand
 valkey-server:moduleFreeContext
 valkey-server:moduleFreeModuleStructure
+valkey-server:moduleFromCommand
 valkey-server:moduleGILAfterLock
 valkey-server:moduleGILBeforeUnlock
 valkey-server:moduleGetACLLogEntryReason
