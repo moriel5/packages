@@ -468,6 +468,7 @@ libffmpeg.so:av_mediacodec_release_buffer
 libffmpeg.so:av_mediacodec_render_buffer_at_time
 libffmpeg.so:av_memcpy_backptr
 libffmpeg.so:av_memdup
+libffmpeg.so:av_mime_codec_str
 libffmpeg.so:av_mod_i
 libffmpeg.so:av_mul_i
 libffmpeg.so:av_mul_q
@@ -735,6 +736,8 @@ libffmpeg.so:av_video_enc_params_create_side_data
 libffmpeg.so:av_video_hint_alloc
 libffmpeg.so:av_video_hint_create_side_data
 libffmpeg.so:av_vk_frame_alloc
+libffmpeg.so:av_vk_get_optional_device_extensions
+libffmpeg.so:av_vk_get_optional_instance_extensions
 libffmpeg.so:av_vkfmt_from_pixfmt
 libffmpeg.so:av_vlog
 libffmpeg.so:av_vorbis_parse_frame
@@ -797,6 +800,7 @@ libffmpeg.so:avcodec_parameters_to_context
 libffmpeg.so:avcodec_pix_fmt_to_codec_tag
 libffmpeg.so:avcodec_profile_name
 libffmpeg.so:avcodec_receive_frame
+libffmpeg.so:avcodec_receive_frame_flags
 libffmpeg.so:avcodec_receive_packet
 libffmpeg.so:avcodec_send_frame
 libffmpeg.so:avcodec_send_packet
@@ -1004,6 +1008,9 @@ libffmpeg.so:ff_ape_write_tag
 libffmpeg.so:ff_apv_profiles
 libffmpeg.so:ff_arib_caption_profiles
 libffmpeg.so:ff_attach_decode_data
+libffmpeg.so:ff_av1_filter_obus
+libffmpeg.so:ff_av1_filter_obus_buf
+libffmpeg.so:ff_av1_parse_seq_header
 libffmpeg.so:ff_av1_profiles
 libffmpeg.so:ff_avio_class
 libffmpeg.so:ff_bprint_get_frame_filename
@@ -1152,17 +1159,11 @@ libffmpeg.so:ff_h264_build_ref_list
 libffmpeg.so:ff_h264_cabac_tables
 libffmpeg.so:ff_h264_check_intra4x4_pred_mode
 libffmpeg.so:ff_h264_check_intra_pred_mode
-libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_10_c
-libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_12_c
-libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_14_c
+libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_16_c
 libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_8_c
-libffmpeg.so:ff_h264_chroma422_dc_dequant_idct_9_c
 libffmpeg.so:ff_h264_chroma422_dc_scan
-libffmpeg.so:ff_h264_chroma_dc_dequant_idct_10_c
-libffmpeg.so:ff_h264_chroma_dc_dequant_idct_12_c
-libffmpeg.so:ff_h264_chroma_dc_dequant_idct_14_c
+libffmpeg.so:ff_h264_chroma_dc_dequant_idct_16_c
 libffmpeg.so:ff_h264_chroma_dc_dequant_idct_8_c
-libffmpeg.so:ff_h264_chroma_dc_dequant_idct_9_c
 libffmpeg.so:ff_h264_chroma_dc_scan
 libffmpeg.so:ff_h264_chroma_qp
 libffmpeg.so:ff_h264_decode_extradata
@@ -1241,11 +1242,8 @@ libffmpeg.so:ff_h264_idct_dc_add_8_c
 libffmpeg.so:ff_h264_idct_dc_add_9_c
 libffmpeg.so:ff_h264_init_cabac_states
 libffmpeg.so:ff_h264_init_poc
-libffmpeg.so:ff_h264_luma_dc_dequant_idct_10_c
-libffmpeg.so:ff_h264_luma_dc_dequant_idct_12_c
-libffmpeg.so:ff_h264_luma_dc_dequant_idct_14_c
+libffmpeg.so:ff_h264_luma_dc_dequant_idct_16_c
 libffmpeg.so:ff_h264_luma_dc_dequant_idct_8_c
-libffmpeg.so:ff_h264_luma_dc_dequant_idct_9_c
 libffmpeg.so:ff_h264_mb_sizes
 libffmpeg.so:ff_h264_p_mb_type_info
 libffmpeg.so:ff_h264_p_sub_mb_type_info
@@ -1334,8 +1332,11 @@ libffmpeg.so:ff_interleaved_ue_golomb_vlc_code
 libffmpeg.so:ff_inverse
 libffmpeg.so:ff_is_http_proto
 libffmpeg.so:ff_is_intra_only
+libffmpeg.so:ff_isom_get_vpcc_features
 libffmpeg.so:ff_isom_parse_dvcc_dvvc
 libffmpeg.so:ff_isom_put_dvcc_dvvc
+libffmpeg.so:ff_isom_write_av1c
+libffmpeg.so:ff_isom_write_vpcc
 libffmpeg.so:ff_jpeg2000_profiles
 libffmpeg.so:ff_k_to_i_20
 libffmpeg.so:ff_k_to_i_34
@@ -1347,6 +1348,7 @@ libffmpeg.so:ff_log2_tab
 libffmpeg.so:ff_ltp_coef
 libffmpeg.so:ff_make_absolute_url
 libffmpeg.so:ff_make_absolute_url2
+libffmpeg.so:ff_make_codec_str
 libffmpeg.so:ff_match_2uint16
 libffmpeg.so:ff_match_url_ext
 libffmpeg.so:ff_matroska_demuxer
@@ -1387,6 +1389,13 @@ libffmpeg.so:ff_mpeg4audio_channels
 libffmpeg.so:ff_mpeg4audio_get_config_gb
 libffmpeg.so:ff_mpeg4audio_sample_rates
 libffmpeg.so:ff_mpegaudio_parser
+libffmpeg.so:ff_nal_find_startcode
+libffmpeg.so:ff_nal_mp4_find_startcode
+libffmpeg.so:ff_nal_parse_units
+libffmpeg.so:ff_nal_parse_units_buf
+libffmpeg.so:ff_nal_unit_extract_rbsp
+libffmpeg.so:ff_nal_units_create_list
+libffmpeg.so:ff_nal_units_write_list
 libffmpeg.so:ff_ntp_time
 libffmpeg.so:ff_ogg_demuxer
 libffmpeg.so:ff_ogm_audio_codec
@@ -1709,6 +1718,7 @@ libffmpeg.so:ff_vk_exec_start
 libffmpeg.so:ff_vk_exec_submit
 libffmpeg.so:ff_vk_exec_update_frame
 libffmpeg.so:ff_vk_exec_wait
+libffmpeg.so:ff_vk_flush_buffer
 libffmpeg.so:ff_vk_frame_barrier
 libffmpeg.so:ff_vk_free_buf
 libffmpeg.so:ff_vk_get_pooled_buffer
@@ -1735,6 +1745,7 @@ libffmpeg.so:ff_vk_shader_add_push_const
 libffmpeg.so:ff_vk_shader_free
 libffmpeg.so:ff_vk_shader_init
 libffmpeg.so:ff_vk_shader_link
+libffmpeg.so:ff_vk_shader_load
 libffmpeg.so:ff_vk_shader_print
 libffmpeg.so:ff_vk_shader_register_exec
 libffmpeg.so:ff_vk_shader_rep_fmt
