@@ -3,8 +3,8 @@
         <Name>appstream-catalog</Name>
         <Homepage>https://www.freedesktop.org/wiki/Distributions/AppStream/</Homepage>
         <Packager>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>CC-BY-SA-3.0</License>
         <License>CC-BY-SA-4.0</License>
@@ -134,6 +134,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/diodon_diodon.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/discord_discord.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/discover_plasmadiscover.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/discover_system-software-install.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/displaycal_displaycal.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/dogtail_dogtail-head.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/dolphin-emu_dolphin-emu.png</Path>
@@ -290,7 +291,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnucash_gnucash-icon.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnumeric_org.gnumeric.gnumeric.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gnuradio_gnuradio-grc.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/goverlay_goverlay.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/goverlay_io.github.benjamimgois.goverlay.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gparted_gparted.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gpodder_gpodder.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/gpsbabel_gpsbabel.png</Path>
@@ -365,6 +366,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/keepassxc_keepassxc.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/keybase_keybase.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/keysmith_org.kde.keysmith.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kf6-kuserfeedback_system-search.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kfind_kfind.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kgeography_kgeography.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kget_org.kde.kget.png</Path>
@@ -372,7 +374,6 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kgraphviewer_kgraphviewer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kicad_kicad.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kid3-qt_kid3-qt.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kid3-qt_kid3.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kinfocenter_hwinfo.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kio-gdrive_folder-gdrive.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kleopatra_kleopatra.png</Path>
@@ -394,6 +395,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/krdc_krdc.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/krfb_krfb.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/krita_krita.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/krokiet_io.github.qarmin.krokiet.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/krusader_krusader_user.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kshisen_kshisen.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/kstars_kstars.png</Path>
@@ -546,6 +548,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/plasma-sdk_plasma.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/plasma-systemmonitor_utilities-system-monitor.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/plasma-welcome_start-here-kde-plasma.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/pluma_accessories-text-editor.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/poedit_net.poedit.Poedit.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/polari_org.gnome.Polari.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/polychromatic_polychromatic.png</Path>
@@ -567,6 +570,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qastools_qasmixer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qbittorrent_qbittorrent.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qdirstat_qdirstat.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qgis-ltr_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qgis_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qgit_qgit.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/qjackctl_org.rncbc.qjackctl.png</Path>
@@ -668,7 +672,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/torbrowser-launcher_org.torproject.torbrowser-launcher.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/totem_org.gnome.Totem.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/transmission-remote-gtk_transmission-remote-gtk.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/transmission_transmission.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/transmission_transmission-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/tuba_dev.geopjr.Tuba.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/tuxpaint_tuxpaint.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/128x128/umbrello_umbrello.png</Path>
@@ -1063,7 +1067,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnucash_gnucash-icon.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnumeric_org.gnumeric.gnumeric.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gnuradio_gnuradio-grc.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/goverlay_goverlay.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/goverlay_io.github.benjamimgois.goverlay.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gparted_gparted.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gpodder_gpodder.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/gpu-screen-recorder-gtk_com.dec05eba.gpu_screen_recorder.png</Path>
@@ -1143,7 +1147,6 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kgraphviewer_kgraphviewer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kicad_kicad.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kid3-qt_kid3-qt.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kid3-qt_kid3.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kinfocenter_hwinfo.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kio-gdrive_folder-gdrive.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/klavaro_klavaro.png</Path>
@@ -1168,6 +1171,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/krename_krename.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/krfb_krfb.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/krita_krita.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/krokiet_io.github.qarmin.krokiet.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/krusader_krusader_user.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kshisen_kshisen.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/kstars_kstars.png</Path>
@@ -1343,6 +1347,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qastools_qasmixer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qbittorrent_qbittorrent.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qdirstat_qdirstat.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qgis-ltr_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qgis_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qgit_qgit.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/qjackctl_org.rncbc.qjackctl.png</Path>
@@ -1440,7 +1445,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/torbrowser-launcher_org.torproject.torbrowser-launcher.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/totem_org.gnome.Totem.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/transmission-remote-gtk_transmission-remote-gtk.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/transmission_transmission.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/transmission_transmission-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/tuba_dev.geopjr.Tuba.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/tuxpaint_tuxpaint.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/48x48/umbrello_umbrello.png</Path>
@@ -1875,7 +1880,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnumeric_org.gnumeric.gnumeric.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gnuradio_gnuradio-grc.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/godot-classic_godot.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/goverlay_goverlay.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/goverlay_io.github.benjamimgois.goverlay.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gparted_gparted.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gpodder_gpodder.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/gprename_gprename.png</Path>
@@ -1966,7 +1971,6 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kgraphviewer_kgraphviewer.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kicad_kicad.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kid3-qt_kid3-qt.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kid3-qt_kid3.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kinfocenter_hwinfo.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kio-gdrive_folder-gdrive.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/klavaro_klavaro.png</Path>
@@ -1991,6 +1995,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/krename_krename.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/krfb_krfb.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/krita_krita.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/krokiet_io.github.qarmin.krokiet.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/krusader_krusader_user.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kshisen_kshisen.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/kstars_kstars.png</Path>
@@ -2194,6 +2199,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qbittorrent_qbittorrent.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qdirstat_qdirstat.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qdriverstation_qdriverstation.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qgis-ltr_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qgis_qgis.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qgit_qgit.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/qjackctl_org.rncbc.qjackctl.png</Path>
@@ -2307,7 +2313,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/torbrowser-launcher_org.torproject.torbrowser-launcher.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/totem_org.gnome.Totem.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/transmission-remote-gtk_transmission-remote-gtk.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/transmission_transmission.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/transmission_transmission-gtk.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/tuba_dev.geopjr.Tuba.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/tuxmath_tuxmath.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/tuxpaint_tuxpaint.png</Path>
@@ -2371,7 +2377,7 @@
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xfce4-terminal_org.xfce.terminal.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xfdashboard_org.xfce.xfdashboard.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xiphos_xiphos.png</Path>
-            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xmaxima_net.sourceforge.maxima.png</Path>
+            <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xmaxima_xmaxima.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xonotic_xonotic.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xournalpp_com.github.xournalpp.xournalpp.png</Path>
             <Path fileType="data">/usr/share/swcatalog/icons/solus-unstable-main/64x64/xpad_xpad.png</Path>
@@ -2456,12 +2462,12 @@
         </Replaces>
     </Package>
     <History>
-        <Update release="44">
-            <Date>2026-02-13</Date>
-            <Version>20260213</Version>
+        <Update release="45">
+            <Date>2026-02-27</Date>
+            <Version>20260227</Version>
             <Comment>Packaging update</Comment>
-            <Name>Evan Maddock</Name>
-            <Email>maddock.evan@vivaldi.net</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
