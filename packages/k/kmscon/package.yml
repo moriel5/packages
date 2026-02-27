@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : kmscon
-version    : 9.3.0
-release    : 7
+version    : 9.3.2
+release    : 8
 source     :
-    - https://github.com/kmscon/kmscon/archive/refs/tags/v9.3.0.tar.gz : 72d968a3b057c8b178381c84cb8584b3b5e75c4133cd9728fa3647690b9b146b
+    - https://github.com/kmscon/kmscon/archive/refs/tags/v9.3.2.tar.gz : 6ecedaf7eb65052be8286465e3600d09857d4dfb36c6076bce8ea985843bb60d
 homepage   : https://www.freedesktop.org/wiki/Software/kmscon
 license    :
     - MIT
