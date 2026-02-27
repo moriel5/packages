@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : signal-desktop
-version    : 7.88.0
-release    : 202
+version    : 8.0.0
+release    : 203
 source     :
-    - https://updates.signal.org/desktop/apt/pool/s/signal-desktop/signal-desktop_7.88.0_amd64.deb : c2c3bb417fdfb90b7689be351a7089f73c331db5405a3a74f8d7fa51cf52d98f
+    - https://updates.signal.org/desktop/apt/pool/s/signal-desktop/signal-desktop_8.0.0_amd64.deb : 508553086bb54c81db36130d6172c58977be343b889fdd67d81a4f8a4ebad254
 homepage   : https://signal.org
 license    : AGPL-3.0-or-later
 component  : network.im
