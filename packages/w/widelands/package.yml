@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : widelands
-version    : '1.3'
-release    : 34
+version    : 1.3.1
+release    : 35
 source     :
-    - https://github.com/widelands/widelands/archive/refs/tags/v1.3.tar.gz : 8468b6bc0ddb70749c09c5603109ceeb79b95f3602d3aa55ecfad84f8ea82571
+    - https://github.com/widelands/widelands/archive/refs/tags/v1.3.1.tar.gz : e6f3e8f4fcafd367962dbacde80e26fc63afad38cfe26fadba9c92d4a01bd687
 license    : GPL-2.0-or-later
 homepage   : https://www.widelands.org/
 component  : games.strategy
@@ -34,3 +34,4 @@ build      : |
     %ninja_build
 install    : |
     %ninja_install
+    %install_license COPYING

@@ -3,8 +3,8 @@
         <Name>widelands</Name>
         <Homepage>https://www.widelands.org/</Homepage>
         <Packager>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Packager>
         <License>GPL-2.0-or-later</License>
         <PartOf>games.strategy</PartOf>
@@ -30,6 +30,7 @@
             <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/org.widelands.Widelands.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/org.widelands.Widelands.png</Path>
             <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/org.widelands.Widelands.png</Path>
+            <Path fileType="data">/usr/share/licenses/widelands/COPYING</Path>
             <Path fileType="man">/usr/share/man/man6/widelands.6.zst</Path>
             <Path fileType="data">/usr/share/metainfo/org.widelands.Widelands.metainfo.xml</Path>
             <Path fileType="data">/usr/share/widelands/COPYING</Path>
@@ -22462,12 +22463,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="34">
-            <Date>2026-01-09</Date>
-            <Version>1.3</Version>
+        <Update release="35">
+            <Date>2026-02-26</Date>
+            <Version>1.3.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Thomas Staudinger</Name>
-            <Email>Staudi.Kaos@gmail.com</Email>
+            <Name>David Harder</Name>
+            <Email>david@davidjharder.ca</Email>
         </Update>
     </History>
 </PISI>
