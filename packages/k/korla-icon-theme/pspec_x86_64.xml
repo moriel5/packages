@@ -2766,6 +2766,7 @@
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/insert-link-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/insert-object-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/insert-text-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/actions/symbolic/kdeconnect.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/keyboard-caps-lock-filled-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/keyboard-enter-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/actions/symbolic/keyboard-hide-symbolic.svg</Path>
@@ -7722,7 +7723,6 @@
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.jami.Jami.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.jenyay.Outwiker.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.kvirc.KVIrc.svg</Path>
-            <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.lugsole.bible_gui.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.lutris.Lutris.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.mediaarea.AVIMetaEdit.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/net.mediaarea.BWFMetaEdit.svg</Path>
@@ -8840,7 +8840,6 @@
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.xfce.xfmp.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.xfce.xfwm4-tweaks.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.xfce.xfwm4.svg</Path>
-            <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.xiphos.Xiphos.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.xonotic.Xonotic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.yuzu_emu.yuzu.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/org.zaproxy.ZAP.svg</Path>
@@ -9692,6 +9691,7 @@
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/sioyek-icon-linux.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/sioyek.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/sirikali.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/apps/scalable/siyuan-note.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/sk1-color-picker.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/sk1.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/apps/scalable/skanlite.svg</Path>
@@ -13687,7 +13687,9 @@
             <Path fileType="data">/usr/share/icons/korla/panel/16/copy-sync7.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/copy-sync8.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/copy-update.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/copyq-busy-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/copyq-busy.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/copyq-normal-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/copyq-normal.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/corectrl-panel.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/cosmic-applet-battery-display-brightness-high-symbolic.svg</Path>
@@ -14897,10 +14899,15 @@
             <Path fileType="data">/usr/share/icons/korla/panel/16/microphone-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/minetime-tray.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mini-calendar.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-checking-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-checking.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-error-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-error.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-installing-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-installing.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-up-to-date-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-up-to-date.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-updates-available-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mintupdate-updates-available.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mnotify-none-wireframe.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/16/mnotify-some-wireframe.svg</Path>
@@ -16626,7 +16633,9 @@
             <Path fileType="data">/usr/share/icons/korla/panel/22/copy-sync7.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/copy-sync8.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/copy-update.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/copyq-busy-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/copyq-busy.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/copyq-normal-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/copyq-normal.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/corectrl-panel.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/cosmic-applet-battery-display-brightness-high-symbolic.svg</Path>
@@ -17836,10 +17845,15 @@
             <Path fileType="data">/usr/share/icons/korla/panel/22/microphone-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/minetime-tray.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mini-calendar.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-checking-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-checking.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-error-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-error.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-installing-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-installing.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-up-to-date-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-up-to-date.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-updates-available-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mintupdate-updates-available.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mnotify-none-wireframe.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/22/mnotify-some-wireframe.svg</Path>
@@ -19565,7 +19579,9 @@
             <Path fileType="data">/usr/share/icons/korla/panel/24/copy-sync7.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/copy-sync8.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/copy-update.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/copyq-busy-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/copyq-busy.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/copyq-normal-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/copyq-normal.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/corectrl-panel.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/cosmic-applet-battery-display-brightness-high-symbolic.svg</Path>
@@ -20775,10 +20791,15 @@
             <Path fileType="data">/usr/share/icons/korla/panel/24/microphone-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/minetime-tray.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mini-calendar.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-checking-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-checking.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-error-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-error.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-installing-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-installing.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-up-to-date-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-up-to-date.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-updates-available-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mintupdate-updates-available.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mnotify-none-wireframe.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/panel/24/mnotify-some-wireframe.svg</Path>
@@ -22226,23 +22247,46 @@
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/computer-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/distributor-logo-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/document-open-recent-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/document-open-recent.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-root.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-system-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-system.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-usb-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk-usb.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-harddisk.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-removable-media-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-removable-media-usb.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/drive-removable-media.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-documents-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-documents.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-download-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-download.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-downloads.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-music-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-music.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-network.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-new-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-new.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-open-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-open.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-pictures-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-pictures.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-publicshare-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-publicshare.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-recent-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-remote-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-remote.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-saved-search-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-saved-search.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-templates-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-templates.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-videos-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-videos.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-visiting-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder-visiting.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/folder.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/inode-directory-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/internet-radio-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/mail-archive-symbolic.svg</Path>
@@ -22252,17 +22296,25 @@
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/mail-outbox-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/mail-sent.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/multimedia-player-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/multimedia-player.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/nemo-bookmark-not-found-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/network-server-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/network-server.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/network-workgroup-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/network-workgroup.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/start-here-kde-plasma-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/start-here-kde-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/start-here-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/trash-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-bookmarks-symbolic.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-desktop-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-desktop.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-home-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-home.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-trash-full-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-trash-full.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-trash-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/icons/korla/places/symbolic/user-trash.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/status/scalable/ac-adapter.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/status/scalable/airplane-mode.svg</Path>
             <Path fileType="data">/usr/share/icons/korla/status/scalable/avatar-default.svg</Path>
@@ -22439,9 +22491,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="42">
-            <Date>2026-01-05</Date>
-            <Version>2.0.0</Version>
+        <Update release="43">
+            <Date>2026-02-27</Date>
+            <Version>2.0.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Algent Albrahimi</Name>
             <Email>algent@protonmail.com</Email>
