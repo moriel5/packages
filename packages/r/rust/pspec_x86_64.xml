@@ -22,42 +22,43 @@
             <Path fileType="executable">/usr/bin/cargo</Path>
             <Path fileType="executable">/usr/bin/rustc</Path>
             <Path fileType="executable">/usr/bin/rustdoc</Path>
-            <Path fileType="library">/usr/lib64/librustc_driver-63695ff96105eb98.so</Path>
+            <Path fileType="library">/usr/lib64/librustc_driver-f8caf2bfd7396df8.so</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/bin/rust-objcopy</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-13fb81451de01130.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-4aad7e8426d31058.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-caf9e91c6adc8f66.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-b33452004036384b.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-802045a8bc0088b0.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcore-cb527de24020bad8.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-e3cb5b13ff21e6f5.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-7bff521d1f7806e6.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-106577b959ac50dc.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-1200ca93c0549aa9.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-ba0431510de03734.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-c4c5b8477e0c3018.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libobject-15b7885aa44277e1.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-330b744ba7df4b8d.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-27ccbf103a4a89bb.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-d0d9d3c7803ca1ce.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-97967fbe60270b9f.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libaddr2line-9185b9a7e40cb83f.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libadler2-549adee2cdb8a141.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-cce4fc664a71f7d4.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcfg_if-2c56c1cad7dae2e2.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcompiler_builtins-3347151e4c9dca38.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libcore-7ea2c22b5c7dd957.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libgetopts-c497960d9510f3f6.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libgimli-b44b2b41549d1409.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libhashbrown-cc13dd9f6a852343.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-62b5e75b55008934.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libmemchr-cf72589e809c2515.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libminiz_oxide-0ddfd8f82844e10c.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libobject-aca0a21ec65e024e.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_abort-143f5886847af725.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libpanic_unwind-e911362ed0ac0e2b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libproc_macro-b84a6abc065fb346.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libprofiler_builtins-2b63ae6007f56300.rlib</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.asan.a</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.dfsan.a</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.lsan.a</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.msan.a</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.rtsan.a</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.safestack.a</Path>
             <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc-stable_rt.tsan.a</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-10cc1704c3cec58c.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-48ce9b2a36d64039.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-1e113d38547f15c9.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-9fd495b8e72b95ca.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-4bae4affcf38f6d7.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd-e7a44448422bf14c.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd-e7a44448422bf14c.so</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-02496995f322d9db.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-6e89cc1bcf24cc6c.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libtest-005a48d548ad30aa.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-d131c9ff07cd8aaf.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_demangle-76c4d99ab550ef6d.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_literal_escaper-d0313c8103eb8d1c.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_alloc-91f9143790b63a8c.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_core-3cb6613da9efbe0b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/librustc_std_workspace_std-dc447f7c1ad448a5.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd-bc03e76423273e8b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd-bc03e76423273e8b.so</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libstd_detect-24843e6fe6d96e53.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libsysroot-0d40a3a52fc7754b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libtest-768e7ee23cacf249.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/x86_64-unknown-linux-gnu/lib/libunwind-db7f54e6020ae9eb.rlib</Path>
             <Path fileType="data">/usr/share/bash-completion/completions/cargo</Path>
             <Path fileType="man">/usr/share/man/man1/cargo-add.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/cargo-bench.1.zst</Path>
@@ -106,37 +107,37 @@
         <Description xml:lang="en">Rust is a systems programming language that runs blazingly fast, prevents nearly all segfaults, and guarantees thread safety.</Description>
         <PartOf>emul32</PartOf>
         <RuntimeDependencies>
-            <Dependency release="149">rust</Dependency>
+            <Dependency release="150">rust</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-d2a2c044d85404a9.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libadler2-b921879c29742b00.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/liballoc-41c792eb9c424fd9.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-0cf352b72405f74d.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcompiler_builtins-ef75e9b3927426d6.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcore-f5912ca90cc7756e.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libgetopts-6ab2a7380694a277.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libgimli-bd6b460c3ae74f0a.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libhashbrown-f90a3f2d0dbd2cb8.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/liblibc-4a023a4d92b69795.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libmemchr-e53fe90b2ecbf61b.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libminiz_oxide-bbf415cf047fe2ae.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libobject-78d7be05be80d070.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libpanic_abort-2a6f32b03910c063.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libpanic_unwind-44a7cb093544f344.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libproc_macro-f733382c22e1318a.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libprofiler_builtins-e90ac6614e2c69f8.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_demangle-d8458e1cb09aecb3.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_literal_escaper-9fe11960b6892d02.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_alloc-eba2fae128a59b99.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_core-4bf6fedd471de9b9.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_std-8f8de735fdd6f560.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd-f6a03d8c4db7d19b.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd-f6a03d8c4db7d19b.so</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd_detect-8015b29d1b9eabb5.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libsysroot-18fc833b9f47a09a.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libtest-ddcedfa124ccf93b.rlib</Path>
-            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libunwind-55018a06a65ae716.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libaddr2line-9de12be9842b4ef6.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libadler2-f0c6fd1a3efafb66.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/liballoc-811d0727a66b0649.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcfg_if-1103b280665da695.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcompiler_builtins-f2ebdb6135e489e1.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libcore-5afcffb698a43a8b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libgetopts-62355f171cd6a6d6.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libgimli-6dfcf2db830e8db6.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libhashbrown-ae2b3a9310ddcc53.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/liblibc-8a1bc275387b3ed4.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libmemchr-3b5d95bb04c34855.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libminiz_oxide-f1e21f7124c0daae.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libobject-8cbf21a1fcf45e9c.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libpanic_abort-4380ac994dd6a61a.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libpanic_unwind-209d9ad5e1110f8b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libproc_macro-8ec35e43992cbf96.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libprofiler_builtins-b60cf983a939dd05.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_demangle-0e0eb1b02537e7f4.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_literal_escaper-bda258697ec3262b.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_alloc-d4a8da6ef654c629.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_core-01ded30b08e68057.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/librustc_std_workspace_std-73b46f966ec86944.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd-a4a285076b042e1f.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd-a4a285076b042e1f.so</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libstd_detect-16a6b12da8de5223.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libsysroot-9139a43c5e18c515.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libtest-e0305ddfbcf13c27.rlib</Path>
+            <Path fileType="library">/usr/lib64/rustlib/i686-unknown-linux-gnu/lib/libunwind-16144b689f103572.rlib</Path>
         </Files>
     </Package>
     <Package>
@@ -145,7 +146,7 @@
         <Description xml:lang="en">Tools and stdlib source for developing with Rust</Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="149">rust</Dependency>
+            <Dependency release="150">rust</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/cargo-clippy</Path>
@@ -199,6 +200,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/linked_list/tests.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/vec_deque/drain.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/vec_deque/extract_if.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/vec_deque/into_iter.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/vec_deque/iter.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/alloc/src/collections/vec_deque/iter_mut.rs</Path>
@@ -710,6 +712,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/float_traits.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/hex_float.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/int_traits.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/int_traits/narrowing_div.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/macros.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/support/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/compiler-builtins/libm/src/math/tan.rs</Path>
@@ -798,6 +801,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/hash/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/hash/sip.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/hint.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/index.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/internal_macros.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/intrinsics/bounds.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/intrinsics/fallback.rs</Path>
@@ -935,6 +939,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/prelude/v1.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/primitive.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/primitive_docs.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/profiling.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/ptr/alignment.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/ptr/const_ptr.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/core/src/ptr/docs/INFO.md</Path>
@@ -1022,6 +1027,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/flt2dec/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/flt2dec/strategy/dragon.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/flt2dec/strategy/grisu.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/int_bits/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/int_log/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/int_pow/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/benches/num/int_sqrt/mod.rs</Path>
@@ -1066,6 +1072,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/hash/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/hash/sip.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/hint.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/index.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/intrinsics.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/io/borrowed_buf.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/io/mod.rs</Path>
@@ -1113,6 +1120,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/net/socket_addr.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/nonzero.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/num/bignum.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/num/clamp_magnitude.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/num/const_from.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/num/dec2flt/decimal.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/coretests/tests/num/dec2flt/decimal_seq.rs</Path>
@@ -1670,6 +1678,9 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/is_terminal/motor.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/is_terminal/unsupported.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/is_terminal/windows.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/kernel_copy/linux.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/kernel_copy/linux/tests.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/kernel_copy/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/io/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/net/connection/mod.rs</Path>
@@ -1762,8 +1773,6 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/uefi/time.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/fuchsia.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/futex.rs</Path>
-            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/kernel_copy.rs</Path>
-            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/kernel_copy/tests.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/linux/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/linux/pidfd.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/pal/unix/linux/pidfd/tests.rs</Path>
@@ -1931,7 +1940,6 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/rwlock/no_threads.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/rwlock/queue.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/rwlock/solid.rs</Path>
-            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/rwlock/teeos.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/thread_parking/darwin.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/thread_parking/futex.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys/sync/thread_parking/id.rs</Path>
@@ -1977,12 +1985,19 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys_common/tests.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/sys_common/wstr.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/test_helpers.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/builder.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/current.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/functions.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/id.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/join_handle.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/lifecycle.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/local.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/main_thread.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/scoped.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/spawnhook.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/tests.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/thread/thread.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/src/time.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/tests/ambiguous-hash_map.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std/tests/builtin-clone.rs</Path>
@@ -2066,6 +2081,9 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/linux/riscv.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/linux/s390x.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/openbsd/aarch64.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/openbsd/auxvec.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/openbsd/mod.rs</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/openbsd/powerpc.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/other.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/riscv.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/std_detect/src/detect/os/riscv/tests.rs</Path>
@@ -2111,6 +2129,8 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu/Dockerfile</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/docker/x86_64-unknown-linux-gnu/cpuid.def</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/dox.sh</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/intrinsic-test-docker.sh</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/intrinsic-test.sh</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/run-docker.sh</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/run.sh</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/ci/style.sh</Path>
@@ -2130,7 +2150,6 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/aarch64/neon/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/aarch64/prefetch.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/aarch64/test_support.rs</Path>
-            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/aarch64/tme.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/arm/dsp.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/arm/mod.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/crates/core_arch/src/arm/neon.rs</Path>
@@ -2297,6 +2316,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/examples/hex.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/examples/wasm.rs</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/intrinsics_data/arm_intrinsics.json</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/intrinsics_data/x86-intel.xml</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/josh-sync.toml</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/rust-version</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/library/stdarch/rustfmt.toml</Path>
@@ -2390,6 +2410,8 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/src/libunwind_ext.h</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/src/shadow_stack_unwind.h</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/CMakeLists.txt</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/aarch64_vg_unwind.pass.cpp</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/aarch64_za_unwind.pass.cpp</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/aix_runtime_link.pass.cpp</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/aix_signal_unwind.pass.sh.S</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/alignment.compile.pass.cpp</Path>
@@ -2403,6 +2425,7 @@
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/configs/llvm-libunwind-shared.cfg.in</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/configs/llvm-libunwind-static-mingw.cfg.in</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/configs/llvm-libunwind-static.cfg.in</Path>
+            <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/eh_frame_fde_pc_range.pass.cpp</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/floatregister.pass.cpp</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/forceunwind.pass.cpp</Path>
             <Path fileType="library">/usr/lib64/rustlib/src/rust/src/llvm-project/libunwind/test/frameheadercache_test.pass.cpp</Path>
@@ -2420,9 +2443,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="149">
-            <Date>2026-01-21</Date>
-            <Version>1.92.0</Version>
+        <Update release="150">
+            <Date>2026-02-27</Date>
+            <Version>1.93.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Joey Riches</Name>
             <Email>josephriches@gmail.com</Email>

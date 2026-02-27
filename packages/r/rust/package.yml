@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : rust
-version    : 1.92.0
-release    : 149
+version    : 1.93.1
+release    : 150
 source     :
-    - https://static.rust-lang.org/dist/rustc-1.92.0-src.tar.xz : ebee170bfe4c4dfc59521a101de651e5534f4dae889756a5c97ca9ea40d0c307
-    - git|https://github.com/rust-lang/llvm-project.git : 37d6f91b7205e15dae3dcb3258b466ce4acbcc60 # rustc/21.1-2025-08-01
+    - https://static.rust-lang.org/dist/rustc-1.93.1-src.tar.xz : 848c9171212c998c069e6979a205a1a44fa3235a463696d62e24701c83596ce0
+    - git|https://github.com/rust-lang/llvm-project.git : 41f177ed26a5252a30ea6090a4da66ce0a96bf44 # rustc/22.1-2026-01-27
 license    :
     - Apache-2.0
     - MIT
