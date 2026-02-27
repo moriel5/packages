@@ -530,6 +530,7 @@ libc.so.6:__openat64_2
 libc.so.6:__poll_chk
 libc.so.6:__ppoll_chk
 libc.so.6:__read_chk
+libc.so.6:__readlink_chk
 libc.so.6:__res_init
 libc.so.6:__sched_cpucount
 libc.so.6:__stack_chk_fail
@@ -658,6 +659,7 @@ libc.so.6:mkfifo
 libc.so.6:mkfifoat
 libc.so.6:mkostemp64
 libc.so.6:mkstemp64
+libc.so.6:mkstemps64
 libc.so.6:mmap
 libc.so.6:mmap64
 libc.so.6:mprotect
@@ -1130,6 +1132,7 @@ libstdc++.so.6:_ZSt4cerr
 libstdc++.so.6:_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_
 libstdc++.so.6:_ZSt9terminatev
 libstdc++.so.6:_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc
+libstdc++.so.6:_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c
 libstdc++.so.6:_ZStrsIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EE
 libstdc++.so.6:_ZTISt15basic_streambufIcSt11char_traitsIcEE
 libstdc++.so.6:_ZTISt16invalid_argument
@@ -1148,6 +1151,7 @@ libstdc++.so.6:_ZdaPvm
 libstdc++.so.6:_ZdlPvm
 libstdc++.so.6:_Znam
 libstdc++.so.6:_Znwm
+libstdc++.so.6:_ZnwmRKSt9nothrow_t
 libstdc++.so.6:__cxa_allocate_exception
 libstdc++.so.6:__cxa_begin_catch
 libstdc++.so.6:__cxa_end_catch

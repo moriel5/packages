@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mesalib
-version    : 25.3.6
-release    : 294
+version    : 26.0.1
+release    : 295
 source     :
-    - https://archive.mesa3d.org/mesa-25.3.6.tar.xz : 59217efeac3b64e7ced958324b9db7494f1e0741aeb22d780276514cc1b8f206
+    - https://archive.mesa3d.org/mesa-26.0.1.tar.xz : bb5104f9f9a46c9b5175c24e601e0ef1ab44ce2d0fdbe81548b59adc8b385dcc
 homepage   : https://mesa3d.org/
 license    :
     - BSL-1.0
@@ -85,9 +85,6 @@ environment: |
           _IS_64BIT_FEAT="enabled"
           export EXTRA_ARGS=""
     fi
-
-    # intel ANV texture bug fix https://gitlab.freedesktop.org/mesa/mesa/-/issues/14684
-    export CXXFLAGS+=" -fno-strict-aliasing"
 setup      : |
     %patch -p1 -i $pkgfiles/0001-Install-opencl-ICD-to-datadir.patch
 
