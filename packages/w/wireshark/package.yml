@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : wireshark
-version    : 4.6.3
-release    : 101
+version    : 4.6.4
+release    : 102
 source     :
-    - https://gitlab.com/wireshark/wireshark/-/archive/v4.6.3/wireshark-v4.6.3.tar.gz : 2e384e6e17a38ba7d409410e55c2bbbd1dec327d87d811710b8b50bdca0c2fed
+    - https://gitlab.com/wireshark/wireshark/-/archive/v4.6.4/wireshark-v4.6.4.tar.gz : 117964e36abac726ca88f1505aff6a58f3f8e398879aae260412587cbbd9cde5
 homepage   : https://www.wireshark.org/
 license    :
     - GPL-2.0-or-later
