@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : udisks
-version    : 2.10.2
-release    : 31
+version    : 2.11.1
+release    : 32
 source     :
-    - https://github.com/storaged-project/udisks/releases/download/udisks-2.10.2/udisks-2.10.2.tar.bz2 : 6401c715d287ec84fe605e0cb90579e8da6c395bce5f42e419f205dd297e261f
+    - https://github.com/storaged-project/udisks/releases/download/udisks-2.11.1/udisks-2.11.1.tar.bz2 : e88c52bae02fa13414604bbef42c6bb91c2e24177ee0057ed55c6bd7451bcb6d
 homepage   : https://github.com/storaged-project/udisks
 license    : GPL-2.0-or-later
 component  : desktop.core
