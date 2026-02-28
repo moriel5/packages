@@ -3,8 +3,8 @@
         <Name>vim</Name>
         <Homepage>https://www.vim.org</Homepage>
         <Packager>
-            <Name>SnowsSky</Name>
-            <Email>snowsky473@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Packager>
         <License>Vim</License>
         <PartOf>editor</PartOf>
@@ -724,6 +724,7 @@
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/elinks.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/elixir.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/elm.vim</Path>
+            <Path fileType="data">/usr/share/vim/vim92/ftplugin/env.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/erlang.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/eruby.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/ftplugin/eterm.vim</Path>
@@ -1850,6 +1851,7 @@
             <Path fileType="data">/usr/share/vim/vim92/syntax/elinks.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/syntax/elm.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/syntax/elmfilt.vim</Path>
+            <Path fileType="data">/usr/share/vim/vim92/syntax/env.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/syntax/erlang.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/syntax/eruby.vim</Path>
             <Path fileType="data">/usr/share/vim/vim92/syntax/esmtprc.vim</Path>
@@ -2536,6 +2538,7 @@
             <Path fileType="data">/usr/share/vim/vim92/tutor/tutor2.sr</Path>
             <Path fileType="data">/usr/share/vim/vim92/tutor/tutor2.sv</Path>
             <Path fileType="data">/usr/share/vim/vim92/vimrc_example.vim</Path>
+            <Path fileType="data">/usr/share/vim/vim92/xdg.vim</Path>
         </Files>
     </Package>
     <Package>
@@ -2544,7 +2547,7 @@
         <Description xml:lang="en">Vim, which stands for Vi IMproved, is an open-source, multiplatform text editor extended from vi. It was first released by Bram Moolenaar in 1991. Since then, numerous features have been added to Vim, many of which are helpful in editing program source code.
 </Description>
         <RuntimeDependencies>
-            <Dependency releaseFrom="158">vim</Dependency>
+            <Dependency releaseFrom="159">vim</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="executable">/usr/bin/eview</Path>
@@ -2726,12 +2729,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="158">
-            <Date>2026-02-16</Date>
-            <Version>9.2.0010</Version>
+        <Update release="159">
+            <Date>2026-02-27</Date>
+            <Version>9.2.0078</Version>
             <Comment>Packaging update</Comment>
-            <Name>SnowsSky</Name>
-            <Email>snowsky473@gmail.com</Email>
+            <Name>Evan Maddock</Name>
+            <Email>maddock.evan@vivaldi.net</Email>
         </Update>
     </History>
 </PISI>
