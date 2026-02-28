@@ -902,6 +902,7 @@ libgstvideo-1.0.so.0:gst_buffer_pool_config_set_video_alignment
 libgstvideo-1.0.so.0:gst_video_alignment_reset
 libgstvideo-1.0.so.0:gst_video_buffer_pool_get_type
 libgstvideo-1.0.so.0:gst_video_format_from_string
+libgstvideo-1.0.so.0:gst_video_format_info_component
 libgstvideo-1.0.so.0:gst_video_format_to_string
 libgstvideo-1.0.so.0:gst_video_frame_copy
 libgstvideo-1.0.so.0:gst_video_frame_map
