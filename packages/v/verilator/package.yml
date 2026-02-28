@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : verilator
-version    : '5.044'
-release    : 53
+version    : '5.046'
+release    : 54
 source     :
-    - https://github.com/verilator/verilator/archive/refs/tags/v5.044.tar.gz : ded2a4a96e3b836ddc9fd5d01127999d981adee4d19133ff819b7129897d801a
+    - https://github.com/verilator/verilator/archive/refs/tags/v5.046.tar.gz : 002bc6d92b203eb8b4612e1d198d8108517d4ec9859e131ef328015352fe6d0c
 license    :
     - Artistic-2.0
     - LGPL-3.0-only
@@ -25,6 +25,6 @@ build      : |
     %make
 install    : |
     %make_install
-    %install_license Artistic LICENSE
+    %install_license LICENSE LICENSES/*
 check      : |
     make test

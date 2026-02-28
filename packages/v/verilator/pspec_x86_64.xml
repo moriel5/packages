@@ -28,8 +28,18 @@
             <Path fileType="executable">/usr/bin/verilator_coverage_bin_dbg</Path>
             <Path fileType="executable">/usr/bin/verilator_gantt</Path>
             <Path fileType="executable">/usr/bin/verilator_profcfunc</Path>
-            <Path fileType="data">/usr/share/licenses/verilator/Artistic</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/Apache-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/Artistic-2.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/BSD-2-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/BSD-3-Clause.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/CC0-1.0.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/ISC.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/LGPL-3.0-only.txt</Path>
             <Path fileType="data">/usr/share/licenses/verilator/LICENSE</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/LicenseRef-Altera-No-Warranty.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/LicenseRef-IEEE-1800.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/MIT.txt</Path>
+            <Path fileType="data">/usr/share/licenses/verilator/Unlicense.txt</Path>
             <Path fileType="man">/usr/share/man/man1/verilator.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/verilator_coverage.1.zst</Path>
             <Path fileType="man">/usr/share/man/man1/verilator_gantt.1.zst</Path>
@@ -154,16 +164,16 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="53">verilator</Dependency>
+            <Dependency release="54">verilator</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="data">/usr/share/pkgconfig/verilator.pc</Path>
         </Files>
     </Package>
     <History>
-        <Update release="53">
-            <Date>2026-01-02</Date>
-            <Version>5.044</Version>
+        <Update release="54">
+            <Date>2026-02-28</Date>
+            <Version>5.046</Version>
             <Comment>Packaging update</Comment>
             <Name>David Harder</Name>
             <Email>david@davidjharder.ca</Email>
