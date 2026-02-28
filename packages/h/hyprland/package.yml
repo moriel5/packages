@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : hyprland
-version    : 0.53.3
-release    : 32
+version    : 0.54.0
+release    : 33
 source     :
-    - https://github.com/hyprwm/Hyprland/releases/download/v0.53.3/source-v0.53.3.tar.gz : 7bbf653dc9978a3c200241ea02af603970edf50f8b737c0aa0df88c16493ee1f
+    - https://github.com/hyprwm/Hyprland/releases/download/v0.54.0/source-v0.54.0.tar.gz : ddc4f7f1dd2d29ebfeaf462fe361593034f104de85b80e3e81f73e33602a69ae
 homepage   : https://hyprland.org/
 license    : BSD-3-Clause
 component  : desktop.hyprland
