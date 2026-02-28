@@ -3074,6 +3074,8 @@
 		<Package>dotnet-8</Package>
 		<Package>dotnet-8-sdk</Package>
 		<Package>dotnet-8-source-built-artifacts</Package>
+		<Package>rstudio</Package>
+		<Package>rstudio-dbginfo</Package>
 		<Package>python-cryptography-vectors</Package>
 	</Obsoletes>
 </PISI>

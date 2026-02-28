@@ -3,8 +3,8 @@
         <Name>qt-creator</Name>
         <Homepage>https://doc.qt.io/qtcreator/</Homepage>
         <Packager>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>GPL-3.0-only</License>
         <PartOf>programming.ide</PartOf>
@@ -2691,12 +2691,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="75">
-            <Date>2026-01-30</Date>
+        <Update release="76">
+            <Date>2026-02-25</Date>
             <Version>18.0.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>Troy Harvey</Name>
-            <Email>harveydevel@gmail.com</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>

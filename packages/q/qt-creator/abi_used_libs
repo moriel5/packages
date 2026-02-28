@@ -38,5 +38,5 @@ libgcc_s.so.1
 libglib-2.0.so.0
 libm.so.6
 libstdc++.so.6
-libyaml-cpp.so.0.7
+libyaml-cpp.so.0.9
 libzstd.so.1

@@ -82,5 +82,5 @@ libvtkIOLegacy-9.5.so.1
 libvtkIOXML-9.5.so.1
 libvtksys-9.5.so.1
 libxerces-c-3.2.so
-libyaml-cpp.so.0.7
+libyaml-cpp.so.0.9
 libz.so.1

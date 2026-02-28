@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : mir
 version    : 2.25.2
-release    : 11
+release    : 12
 source     :
     - https://github.com/canonical/mir/releases/download/v2.25.2/mir-2.25.2.tar.xz : fad807079146cff925aaf97b9efffa17a71b862d1082b992c0885c9072acdbbd
 homepage   : https://mir-server.io/

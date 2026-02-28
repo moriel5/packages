@@ -42,5 +42,5 @@ libswresample.so.5
 libswscale.so.8
 libtinyxml.so.0
 libunshield.so.0
-libyaml-cpp.so.0.7
+libyaml-cpp.so.0.9
 libz.so.1
