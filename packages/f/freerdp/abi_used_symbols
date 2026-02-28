@@ -123,6 +123,7 @@ libX11.so.6:XDeleteProperty
 libX11.so.6:XDestroyIC
 libX11.so.6:XDestroyRegion
 libX11.so.6:XDestroyWindow
+libX11.so.6:XDisplayKeycodes
 libX11.so.6:XDisplayName
 libX11.so.6:XDrawLines
 libX11.so.6:XDrawString
@@ -214,6 +215,7 @@ libX11.so.6:XkbFreeKeyboard
 libX11.so.6:XkbGetMap
 libX11.so.6:XkbGetNames
 libX11.so.6:XkbGetState
+libX11.so.6:XkbKeycodeToKeysym
 libX11.so.6:XkbLibraryVersion
 libX11.so.6:XkbLockModifiers
 libX11.so.6:XkbQueryExtension
@@ -350,7 +352,6 @@ libc.so.6:__fdelt_chk
 libc.so.6:__gethostname_chk
 libc.so.6:__inet_ntop_chk
 libc.so.6:__inet_pton_chk
-libc.so.6:__isoc99_sscanf
 libc.so.6:__libc_single_threaded
 libc.so.6:__libc_start_main
 libc.so.6:__memcpy_chk
@@ -1072,6 +1073,7 @@ libstdc++.so.6:_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE
 libstdc++.so.6:_ZSt20__throw_length_errorPKc
 libstdc++.so.6:_ZSt20__throw_system_errori
 libstdc++.so.6:_ZSt21ios_base_library_initv
+libstdc++.so.6:_ZSt24__throw_out_of_range_fmtPKcz
 libstdc++.so.6:_ZSt25__throw_bad_function_callv
 libstdc++.so.6:_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
 libstdc++.so.6:_ZSt4cout

@@ -115,6 +115,7 @@ libfreerdp-client3.so.3:msusb_msinterface_write
 libfreerdp-client3.so.3:msusb_mspipes_replace
 libfreerdp-client3.so.3:rail_handshake_ex_flags_to_string
 libfreerdp-client3.so.3:rdpgfx_client_context_free
+libfreerdp-server-proxy3.so.3:StaticChannelContext_free
 libfreerdp-server-proxy3.so.3:intercept_context_entry_free
 libfreerdp-server-proxy3.so.3:pf_config_clone
 libfreerdp-server-proxy3.so.3:pf_config_get
@@ -609,6 +610,11 @@ libfreerdp3.so.3:freerdp_error_info
 libfreerdp3.so.3:freerdp_extract_key_value
 libfreerdp3.so.3:freerdp_focus_required
 libfreerdp3.so.3:freerdp_free
+libfreerdp3.so.3:freerdp_getApplicationDetailsProduct
+libfreerdp3.so.3:freerdp_getApplicationDetailsString
+libfreerdp3.so.3:freerdp_getApplicationDetailsStringW
+libfreerdp3.so.3:freerdp_getApplicationDetailsVendor
+libfreerdp3.so.3:freerdp_getApplicationDetailsVersion
 libfreerdp3.so.3:freerdp_get_build_config
 libfreerdp3.so.3:freerdp_get_build_revision
 libfreerdp3.so.3:freerdp_get_common_access_token
@@ -748,6 +754,7 @@ libfreerdp3.so.3:freerdp_register_addin_provider
 libfreerdp3.so.3:freerdp_send_error_info
 libfreerdp3.so.3:freerdp_server_license_issuers_copy
 libfreerdp3.so.3:freerdp_server_license_issuers_free
+libfreerdp3.so.3:freerdp_setApplicationDetails
 libfreerdp3.so.3:freerdp_set_common_access_token
 libfreerdp3.so.3:freerdp_set_error_info
 libfreerdp3.so.3:freerdp_set_focus
@@ -1174,15 +1181,6 @@ libfreerdp3.so.3:zgfx_decompress
 libproxy-bitmap-filter-plugin.so:proxy_module_entry_point
 libproxy-demo-plugin.so:proxy_module_entry_point
 libproxy-dyn-channel-dump-plugin.so:proxy_module_entry_point
-librdtk0.so.0:rdtk_button_draw
-librdtk0.so.0:rdtk_engine_free
-librdtk0.so.0:rdtk_engine_new
-librdtk0.so.0:rdtk_font_draw_text
-librdtk0.so.0:rdtk_label_draw
-librdtk0.so.0:rdtk_surface_fill
-librdtk0.so.0:rdtk_surface_free
-librdtk0.so.0:rdtk_surface_new
-librdtk0.so.0:rdtk_text_field_draw
 libwinpr-tools3.so.3:makecert_context_free
 libwinpr-tools3.so.3:makecert_context_new
 libwinpr-tools3.so.3:makecert_context_output_certificate_file
@@ -1427,6 +1425,8 @@ libwinpr3.so.3:FreeEnvironmentStringsA
 libwinpr3.so.3:FreeEnvironmentStringsW
 libwinpr3.so.3:FreeLibrary
 libwinpr3.so.3:GetCombinedPath
+libwinpr3.so.3:GetCombinedPathV
+libwinpr3.so.3:GetCombinedPathVA
 libwinpr3.so.3:GetCommConfig
 libwinpr3.so.3:GetCommMask
 libwinpr3.so.3:GetCommModemStatus
@@ -1455,6 +1455,8 @@ libwinpr3.so.3:GetEnvironmentPath
 libwinpr3.so.3:GetEnvironmentStrings
 libwinpr3.so.3:GetEnvironmentStringsW
 libwinpr3.so.3:GetEnvironmentSubPath
+libwinpr3.so.3:GetEnvironmentSubPathV
+libwinpr3.so.3:GetEnvironmentSubPathVA
 libwinpr3.so.3:GetEnvironmentVariableA
 libwinpr3.so.3:GetEnvironmentVariableEBA
 libwinpr3.so.3:GetEnvironmentVariableW
@@ -1476,6 +1478,8 @@ libwinpr3.so.3:GetKeycodeFromVirtualKeyCode
 libwinpr3.so.3:GetKnownPath
 libwinpr3.so.3:GetKnownPathIdString
 libwinpr3.so.3:GetKnownSubPath
+libwinpr3.so.3:GetKnownSubPathV
+libwinpr3.so.3:GetKnownSubPathVA
 libwinpr3.so.3:GetLastError
 libwinpr3.so.3:GetLine
 libwinpr3.so.3:GetLocalTime
@@ -1654,6 +1658,7 @@ libwinpr3.so.3:MergeEnvironmentStrings
 libwinpr3.so.3:MessagePipe_Free
 libwinpr3.so.3:MessagePipe_New
 libwinpr3.so.3:MessagePipe_PostQuit
+libwinpr3.so.3:MessageQueue_Capacity
 libwinpr3.so.3:MessageQueue_Clear
 libwinpr3.so.3:MessageQueue_Dispatch
 libwinpr3.so.3:MessageQueue_Event
@@ -1793,6 +1798,7 @@ libwinpr3.so.3:PushEntryList
 libwinpr3.so.3:QueryCommDevice
 libwinpr3.so.3:QueryDepthSList
 libwinpr3.so.3:QueueUserAPC
+libwinpr3.so.3:Queue_Capacity
 libwinpr3.so.3:Queue_Clear
 libwinpr3.so.3:Queue_Contains
 libwinpr3.so.3:Queue_Count
@@ -2548,6 +2554,8 @@ libwinpr3.so.3:winpr_EnterSynchronizationBarrier
 libwinpr3.so.3:winpr_FIPSMode
 libwinpr3.so.3:winpr_FreeLibraryWhenCallbackReturns
 libwinpr3.so.3:winpr_GetConfigFilePath
+libwinpr3.so.3:winpr_GetConfigFilePathV
+libwinpr3.so.3:winpr_GetConfigFilePathVA
 libwinpr3.so.3:winpr_GetTickCount64
 libwinpr3.so.3:winpr_GetTickCount64NS
 libwinpr3.so.3:winpr_GetUnixTimeNS
@@ -2622,6 +2630,9 @@ libwinpr3.so.3:winpr_bitmap_write_ex
 libwinpr3.so.3:winpr_cipher_type_from_string
 libwinpr3.so.3:winpr_cipher_type_to_string
 libwinpr3.so.3:winpr_fopen
+libwinpr3.so.3:winpr_getApplicationDetailsProduct
+libwinpr3.so.3:winpr_getApplicationDetailsVendor
+libwinpr3.so.3:winpr_getApplicationDetailsVersion
 libwinpr3.so.3:winpr_get_build_config
 libwinpr3.so.3:winpr_get_build_revision
 libwinpr3.so.3:winpr_get_version
@@ -2642,6 +2653,7 @@ libwinpr3.so.3:winpr_log_backtrace
 libwinpr3.so.3:winpr_log_backtrace_ex
 libwinpr3.so.3:winpr_md_type_from_string
 libwinpr3.so.3:winpr_md_type_to_string
+libwinpr3.so.3:winpr_setApplicationDetails
 libwinpr3.so.3:winpr_str_append
 libwinpr3.so.3:winpr_str_url_decode
 libwinpr3.so.3:winpr_str_url_encode
