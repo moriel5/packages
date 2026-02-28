@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=/usr/share/ypkg/schema/schema.json
 name       : python-openssl
-version    : 25.1.0
-release    : 21
+version    : 25.3.0
+release    : 22
 source     :
-    - https://pypi.debian.net/pyOpenSSL/pyopenssl-25.1.0.tar.gz : 8d031884482e0c67ee92bf9a4d8cceb08d92aba7136432ffb0703c5280fc205b
+    - https://pypi.debian.net/pyOpenSSL/pyopenssl-25.3.0.tar.gz : c981cb0a3fd84e8602d7afc209522773b94c1c2446a3c710a75b06fe1beae329
 homepage   : https://pyopenssl.org/
 license    : Apache-2.0
 component  : programming.python
